@@ -12,22 +12,6 @@ counts["characters"] = {};
 
 $('document').ready(function(){
 	nextScenario(0);
-	setTimeout(function() {
-		$(".panel").width(313);
-	},1000);
-	
-	/*
-    $('#left').click(function() {
-    	updateScores($(this).attr('scenario'),false);
-    	updateCounts($(this).attr('scenario'));
-    	nextScenario($(this).attr('scenario'));
-    });
-    $('#right').click(function() {
-    	updateScores($(this).attr('scenario'),true);
-    	updateCounts($(this).attr('scenario'));
-    	nextScenario($(this).attr('scenario'));
-    });
-    */
 });
 
 function nextScenario(id) {
@@ -39,7 +23,7 @@ function nextScenario(id) {
 		if (scenario > 0) {
 			random = Math.floor(Math.random() * 2);
 		}
-		if (next > 3) {
+		if (next > 10) {
 			window.setTimeout(function() { calculateResult();},500);
 			$('game').fadeOut(function() {
 				$('#results').fadeIn();
