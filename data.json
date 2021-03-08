@@ -1,0 +1,348 @@
+{
+	"scenarios": [
+	{
+		"id":"1",
+		"no-action": {
+			"scoring": [
+				"Save people in car",
+				"Avoid intervention"
+			],
+			"saved": {
+				"genders": [
+					"Male"
+				],
+				"characters": [
+					"Male (man)"
+				]
+			},
+			"killed": {
+				"genders": [
+					"Male"
+				],
+				"characters": [
+					"Male (man)"
+				]
+			},
+			"description": "Drive through a pedestrian crossing ahead. This will result in:"
+		},
+		"take-action": {
+			"scoring": [
+			],
+			"description": "Crash into a contrete barrier. This will result in:"
+		}
+	},
+	{
+		"id":"2",
+		"no-action": {
+			"scoring": [
+				"Save people in car",
+				"Save more lives",
+				"Avoid intervention",
+				"Save young"
+			],
+			"saved": {
+				"genders": [
+					"Male",
+					"Female",
+					"Female"
+				],
+				"characters": [
+					"Male (man)",
+					"Female (woman)",
+					"Female (child)"
+				]
+			},
+			"killed": {
+				"genders": [
+					"Female"
+				],
+				"characters": [
+					"Female (professional)"
+				]
+			}
+		},
+		"take-action": {
+			"scoring": [
+				"Save old"
+			]
+		}
+	},
+	{
+		"id":"3",
+		"no-action": {
+			"scoring": [
+				"Save people in car",
+				"Avoid intervention",
+				"Save old"
+			],
+			"killed": {
+				"genders": [
+					"Male",
+					"Female",
+					"Female"
+				],
+				"characters": [
+					"Male (man)",
+					"Female (woman)",
+					"Male (child)"
+				]
+			},
+			"saved": {
+				"genders": [
+					"Female"
+				],
+				"characters": [
+					"Female (professional)"
+				]
+			}
+		},
+		"take-action": {
+			"scoring": [
+				"Save more lives",
+				"Save young"
+			]
+		}
+	},
+	{
+		"id":"4",
+		"no-action": {
+			"scoring": [
+				"Avoid intervention",
+				"Save old"
+			],
+			"killed": {
+				"genders": [
+					"Male",
+					"Female"
+				],
+				"characters": [
+					"Male (jogger)",
+					"Female (jogger)"
+				]
+			},
+			"saved": {
+				"genders": [
+					"Male",
+					"Female"
+				],
+				"characters": [
+					"Male (old)",
+					"Female (old)"
+				]
+			}
+		},
+		"take-action": {
+			"scoring": [
+				"Save young"
+			]
+		}
+	},
+	{
+		"id":"5",
+		"no-action": {
+			"scoring": [
+				"Avoid intervention",
+				"Save old",
+				"Save hoomans",
+				"Save more poeple"
+			],
+			"killed": {
+				"genders": [
+					"Female"
+				],
+				"characters": [
+					"Female (child)",
+					"Pet (cat)"
+				]
+			},
+			"saved": {
+				"genders": [
+					"Male",
+					"Female"
+				],
+				"characters": [
+					"Male (old)",
+					"Female (old)"
+				]
+			}
+		},
+		"take-action": {
+			"scoring": [
+				"Save young",
+				"Save pets"
+			]
+		}
+	},
+	{
+		"id":"6",
+		"no-action": {
+			"scoring": [
+				"Avoid intervention",
+				"Save old",
+				"Save professional"
+			],
+			"killed": {
+				"genders": [
+					"Female"
+				],
+				"characters": [
+					"Female (child)",
+					"Pet (cat)",
+					"Robber"
+				]
+			},
+			"saved": {
+				"genders": [
+					"Male",
+					"Female"
+				],
+				"characters": [
+					"Male (old)",
+					"Female (old)"
+				]
+			}
+		},
+		"take-action": {
+			"scoring": [
+				"Save young",
+				"Save robber",
+				"Save pet"
+			]
+		}
+	},
+	{
+		"id":"7",
+		"no-action": {
+			"scoring": [
+				"Avoid intervention",
+				"Save people in car",
+				"Uphold law"
+			],
+			"killed": {
+				"genders": [
+					"Male"
+				],
+				"characters": [
+					"Male (professional)"
+				]
+			},
+			"saved": {
+				"genders": [
+					"Female"
+				],
+				"characters": [
+					"Female (professional)"
+				]
+			}
+		},
+		"take-action": {
+			"scoring": [
+			]
+		}
+	},
+	{
+		"id":"8",
+		"no-action": {
+			"scoring": [
+				"Avoid intervention",
+				"Save people in car"
+			],
+			"killed": {
+				"genders": [],
+				"characters": [
+					"Robber"
+				]
+			},
+			"saved": {
+				"genders": [
+					"Male"
+				],
+				"characters": [
+					"Male (professional)"
+				]
+			}
+		},
+		"take-action": {
+			"scoring": [
+				"Uphold law"
+			]
+		}
+	},
+	{
+		"id":"9",
+		"no-action": {
+			"scoring": [
+				"Avoid intervention",
+				"Uphold law",
+				"Save pets"
+			],
+			"killed": {
+				"genders": [
+					"Female"
+				],
+				"characters": [
+					"Female (professional)"
+				]
+			},
+			"saved": {
+				"genders": [					
+				],
+				"characters": [
+					"Robber",
+					"Pet (dog)"
+				]
+			}
+		},
+		"take-action": {
+			"scoring": [	
+			]
+		}
+	},
+	{
+		"id":"10",
+		"no-action": {
+			"scoring": [
+				"Avoid intervention",
+				"Save old"
+			],
+			"killed": {
+				"genders": [
+					"Male",
+					"Male",
+					"Female",
+					"Female"
+				],
+				"characters": [
+					"Female (woman)",
+					"Female (child)",
+					"Male (man)",
+					"Male (child)",
+					"Baby"
+				]
+			},
+			"saved": {
+				"genders": [
+					"Male",
+					"Male",
+					"Female",
+					"Female",
+					"Female"
+				],
+				"characters": [
+					"Female (professional)",
+					"Female (old)",
+					"Male (professional)",
+					"Male (old)",
+					"Female (pregnant)"
+				]
+			}
+		},
+		"take-action": {
+			"scoring": [
+				"Uphold law",
+				"Save young"
+			]
+		}
+	}
+]
+}

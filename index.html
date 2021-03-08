@@ -1,0 +1,104 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/layouts.css"/>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://d3js.org/d3.v4.min.js"></script>
+	<script type="text/javascript" src="js/action.js"></script>
+</head>
+<body>
+	<container>
+		<game>
+			<div id="background-left" class="background left">
+				<img id="left" scenario="1" src="img/scenarios/1-l.png"/>
+			</div>
+			<div id="background-right" class="background right">
+				<img id="right" scenario="1" src="img/scenarios/1-r.png"/>
+			</div>
+			<div id="panel" class="background panel">
+				<h1>What should the self driving car do?</h1>
+				<p>The self driving car suffers a sudden brake failure.</p>
+				<h2>Continue ahead</h2>
+				<p id="continue-ahead"></p>
+				<section class="table">
+					<table>
+						<tr><th>Killed</th><th>Saved</th></tr>
+						<tr><td id="continue-killed"></td><td id="continue-saved"></td></tr>
+					</table>
+				</section>
+				<h2>Swerve</h2>
+				<p id="swerve"></p>
+				<section class="table">
+					<table>
+						<tr><th>Killed</th><th>Saved</th></tr>
+						<tr><td id="swerve-killed"></td><td id="swerve-saved"></td></tr>
+					</table>
+				</section>
+				
+				<p>Click one of the images here to select your option.</p>
+			</div>
+		</game>
+		<section id="results">
+			<div id="top">
+				<sub-section id="mostSaved" class="charecters">
+					<h1>Most Saved Character/s</h1>
+					<img id="placeholder" src="img/elements/placeholder.png"/>
+					<img id="Male_man" class="charecter" src="img/road/male.png"/>
+					<img id="Female_woman" class="charecter" src="img/road/female.png"/>
+					<img id="Male_child" class="charecter" src="img/road/child-male.png"/>
+					<img id="Female_child" class="charecter" src="img/road/child-female.png"/>
+					<img id="Male_professional" class="charecter" src="img/road/male-professional.png"/>
+					<img id="Female_professional" class="charecter" src="img/road/female-professional.png"/>
+					<img id="Male_medic" class="charecter" src="img/road/male-medic.png"/>
+					<img id="Female_medic" class="charecter" src="img/road/female-medic.png"/>
+					<img id="Male_jogger" class="charecter" src="img/road/male-jogger.png"/>
+					<img id="Female_jogger" class="charecter" src="img/road/female-jogger.png"/>
+					<img id="Male_old" class="charecter" src="img/road/male-old.png"/>
+					<img id="Female_old" class="charecter" src="img/road/female-old.png"/>
+					<img id="Female_pregnant" class="charecter" src="img/road/female-pregnant.png"/>
+					<img id="Pet_cat" class="charecter" src="img/road/pet-cat.png"/>
+					<img id="Pet_dog" class="charecter" src="img/road/pet-dog.png"/>
+					<img id="Baby" class="charecter" src="img/road/baby.png"/>
+					<img id="Robber" class="charecter" src="img/road/robber.png"/>
+				</sub-section>
+				<sub-section id="mostKilled" class="charecters">
+					<h1>Most Kiled Character/s</h1>
+					<img id="placeholder" src="img/elements/placeholder.png"/>
+					<img id="Male_man" class="charecter" src="img/road/male.png"/>
+					<img id="Female_woman" class="charecter" src="img/road/female.png"/>
+					<img id="Male_child" class="charecter" src="img/road/child-male.png"/>
+					<img id="Female_child" class="charecter" src="img/road/child-female.png"/>
+					<img id="Male_professional" class="charecter" src="img/road/male-professional.png"/>
+					<img id="Female_professional" class="charecter" src="img/road/female-professional.png"/>
+					<img id="Male_medic" class="charecter" src="img/road/male-medic.png"/>
+					<img id="Female_medic" class="charecter" src="img/road/female-medic.png"/>
+					<img id="Male_jogger" class="charecter" src="img/road/male-jogger.png"/>
+					<img id="Female_jogger" class="charecter" src="img/road/female-jogger.png"/>
+					<img id="Male_old" class="charecter" src="img/road/male-old.png"/>
+					<img id="Female_old" class="charecter" src="img/road/female-old.png"/>
+					<img id="Female_pregnant" class="charecter" src="img/road/female-pregnant.png"/>
+					<img id="Pet_cat" class="charecter" src="img/road/pet-cat.png"/>
+					<img id="Pet_dog" class="charecter" src="img/road/pet-dog.png"/>
+					<img id="Baby" class="charecter" src="img/road/baby.png"/>
+					<img id="Robber" class="charecter" src="img/road/robber.png"/>
+				</sub-section>
+			</div>
+			<sub-section class="left-50">
+				
+			</sub-section>
+			<div id="padding" class="padding"></div>
+			<sub-section class="right-50">
+			
+			</sub-section>
+		</section>
+		<section id="credits" class="credits">
+			<div class="left-credit">
+				<a id="odilearning" href="https://theodi.org" target="_blank"><img src="img/learning-72-Pink-300px.png" alt="ODI Learning"/></a>
+			</div>
+			<div class="right-credit">
+				<p>This experiment is derived from the <a href="https://www.moralmachine.net/" target="_blank">MIT Moral Machine</a><br/>Currently no data is collected from your interactions.</p>
+			</div>
+
+		</section>
+	</container>
+</body>
+</html>
