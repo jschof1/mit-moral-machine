@@ -3,6 +3,7 @@ body {
 	font-weight: 100;
 	border: 0px;
 	margin: 0px;
+	text-align: center;
 }
 container {
 	text-align: center;
@@ -12,62 +13,98 @@ container {
 	height: 500px;
 	display: inline-block;
 	background-size: contain;
+	margin-top: 8px;
 }
-.panel {
-	text-align: left;
-	color: black;
-	padding-left: 8px;
-	padding-right: 8px;
-	width: 296px;
-	margin-right: 0;
-	vertical-align: top;
-	font-size: 0.8em;
+#background-left:hover, #background-right:hover {
+  	box-shadow: 0 0 20px rgba(28,95,159,256); 
+}
+
+#background-right {
+	margin-left: 1em;
+}
+
+.description-button {
+	position: relative;
+    top: -454px;
+    left: 61px;
+    width: 108px;
+    padding: 0.5em;
+    color: black;
+    line-height: 1.4em;
+    background: #95afcf;
+    font-size: 1em;
+}
+#panel-left-hide, #panel-right-hide {
+	display: none;
+}
+.overlay-panel {
+	display: none;
+	position: relative;
+    top: -433px;
+    float: left;
+    width: 329px;
+    height: 200px;
+    background-color: #cccc;
+    margin-left: 2px;
+    font-size: 0.8em;
+    font-weight: 100;
+    color: #0f4273;
+}
+.overlay-panel p {
+	padding-left: 1em;
+    padding-right: 1em;
 }
 .panel h2 {
 	font-weight: 100;
 	font-size: 1.4em;
 }
+table {
+	border-collapse: collapse;
+}
 .table {
 	margin-left: auto;
     margin-right: auto;
     width: max-content;
+    border-collapse: collapse;
+    color: #0f4273;
 }
 .table table, .table table th {
 	font-weight: 100;
-	border-spacing: 1em 0.2em;
+	padding: 0.2em;
+	border: 1px solid #1c5f9f;
+	background-color: #1c5f9f11;
+	color: #0f4273;
 }
 .table table td {
 	font-size: 0.8em;
 	vertical-align: top;
+	padding: 0.2em;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	border: 1px solid #1c5f9f;
+	color: #0f4273;
 }
 .credits {
-	height: 50px;
-}
-.credits div {
-	width: 48%;
-	display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
 	font-size: 0.8em;
 	color: black;
 	vertical-align: top;
-	height: 50px;
-}
-.credits p {
-	display: inline-block;
-	vertical-align: middle;
+	position: relative;
+    top: -10px;
 }
 .credits a {
 	color: inherit;
 }
-.credits img {
-	max-height: 40px;
-	padding-top: 5px;
-	display: inline-block;
-}
-.credits .left-credit {
-	text-align: left;
-}
-.credits .right-credit {
-	text-align: right;
+@media only screen and (max-width: 700px) {
+	#background-right {
+		margin-left: 0em;
+		margin-top: 10px;
+	}
+	.credits {
+		position: relative;
+    	top: 10px;
+	}
 }
 @media only screen and (max-width: 1000px) {
 	container {
@@ -204,4 +241,17 @@ result #you-bar {
     margin-right: auto;
     background-color: orange;
     border: 1px solid gray;
+}
+@media only screen and (max-width: 950px) {
+	.left-50, .right-50 {
+		display: block;
+    	margin-left: auto;
+    	margin-right: auto;
+    	width: auto;
+    }
+}
+@media only screen and (max-width: 650px) {
+	.charecters h1 {
+		font-size: 1em;
+	}
 }

@@ -23,7 +23,7 @@ function nextScenario(id) {
 		if (scenario > 0) {
 			random = Math.floor(Math.random() * 2);
 		}
-		if (next > 10) {
+		if (next > 3) {
 			window.setTimeout(function() { calculateResult();},500);
 			$('game').fadeOut(function() {
 				$('#results').fadeIn();
@@ -31,10 +31,9 @@ function nextScenario(id) {
 		} else {
 			$("#background-left").children().fadeOut(function() {
 				this.remove();
-				console.log(sides[random]);
 				if (sides[random] == "left") {
 					$("#background-left").css('background-image','url("img/L.png")');
-					$("#background-left").html('<img id="left" scenario="'+next+'" src="img/scenarios/'+next+'-l.png"/>');
+					$("#background-left").html('<img id="left" scenario="'+next+'" src="img/scenarios/'+next+'-l.png"/><button id="panel-left-button" class="description-button" onclick="toggleDescription(\'panel-left\');"><span id="panel-left-show">Show</span><span id="panel-left-hide">Hide</span> description</button><div id="panel-left" class="overlay-panel"><h2>Continue ahead</h2><p id="continue-ahead">'+data.scenarios[scenario]["no-action"]["description"]+'</p><section class="table"><table><tr><th>Killed</th><th>Saved</th></tr><tr><td id="continue-killed">'+getCharecterSummaryText(getCharecterSummary(data.scenarios[scenario]["no-action"]["killed"]["characters"]))+'</td><td id="continue-saved">'+getCharecterSummaryText(getCharecterSummary(data.scenarios[scenario]["no-action"]["saved"]["characters"]))+'</td></tr></table></section></div>');
 					$('#left').click(function() {
 	    				updateScores($(this).attr('scenario'),false);
 	    				updateCounts($(this).attr('scenario'));
@@ -42,7 +41,7 @@ function nextScenario(id) {
 	    			});
 				} else {
 					$("#background-left").css('background-image','url("img/R.png")');
-					$("#background-left").html('<img id="right" scenario="'+next+'" src="img/scenarios/'+next+'-r.png"/>');
+					$("#background-left").html('<img id="right" scenario="'+next+'" src="img/scenarios/'+next+'-r.png"/><button id="panel-left-button" class="description-button" onclick="toggleDescription(\'panel-left\');"><span id="panel-left-show">Show</span><span id="panel-left-hide">Hide</span> description</button><div id="panel-left" class="overlay-panel"><h2>Swerve</h2><p id="swerve">'+data.scenarios[scenario]["take-action"]["description"]+'</p><section class="table"><table><tr><th>Killed</th><th>Saved</th></tr><tr><td id="swerve-killed">'+getCharecterSummaryText(getCharecterSummary(data.scenarios[scenario]["no-action"]["saved"]["characters"]))+'</td><td id="swerve-saved">'+getCharecterSummaryText(getCharecterSummary(data.scenarios[scenario]["no-action"]["killed"]["characters"]))+'</td></tr></table></section></div>');
 					$('#right').click(function() {
 			    		updateScores($(this).attr('scenario'),true);
 			    		updateCounts($(this).attr('scenario'));
@@ -55,7 +54,7 @@ function nextScenario(id) {
 				this.remove();
 				if (sides[random] == "left") {
 					$("#background-right").css('background-image','url("img/R.png")');
-					$("#background-right").html('<img id="right" scenario="'+next+'" src="img/scenarios/'+next+'-r.png"/>');
+					$("#background-right").html('<img id="right" scenario="'+next+'" src="img/scenarios/'+next+'-r.png"/><button id="panel-right-button" class="description-button" onclick="toggleDescription(\'panel-right\');"><span id="panel-right-show">Show</span><span id="panel-right-hide">Hide</span> description</button><div id="panel-right" class="overlay-panel"><h2>Swerve</h2><p id="swerve">'+data.scenarios[scenario]["take-action"]["description"]+'</p><section class="table"><table><tr><th>Killed</th><th>Saved</th></tr><tr><td id="swerve-killed">'+getCharecterSummaryText(getCharecterSummary(data.scenarios[scenario]["no-action"]["saved"]["characters"]))+'</td><td id="swerve-saved">'+getCharecterSummaryText(getCharecterSummary(data.scenarios[scenario]["no-action"]["killed"]["characters"]))+'</td></tr></table></section></div>');
 					$('#right').click(function() {
 			    		updateScores($(this).attr('scenario'),true);
 			    		updateCounts($(this).attr('scenario'));
@@ -63,7 +62,7 @@ function nextScenario(id) {
 			    	});
 				} else {
 					$("#background-right").css('background-image','url("img/L.png")');
-					$("#background-right").html('<img id="left" scenario="'+next+'" src="img/scenarios/'+next+'-l.png"/>');
+					$("#background-right").html('<img id="left" scenario="'+next+'" src="img/scenarios/'+next+'-l.png"/><button id="panel-right-button" class="description-button" onclick="toggleDescription(\'panel-right\');"><span id="panel-right-show">Show</span><span id="panel-right-hide">Hide</span> description</button><div id="panel-right" class="overlay-panel"><h2>Continue ahead</h2><p id="continue-ahead">'+data.scenarios[scenario]["no-action"]["description"]+'</p><section class="table"><table><tr><th>Killed</th><th>Saved</th></tr><tr><td id="continue-killed">'+getCharecterSummaryText(getCharecterSummary(data.scenarios[scenario]["no-action"]["killed"]["characters"]))+'</td><td id="continue-saved">'+getCharecterSummaryText(getCharecterSummary(data.scenarios[scenario]["no-action"]["saved"]["characters"]))+'</td></tr></table></section></div>');
 					$('#left').click(function() {
 	    				updateScores($(this).attr('scenario'),false);
 	    				updateCounts($(this).attr('scenario'));
@@ -80,6 +79,12 @@ function nextScenario(id) {
 			
 		}
 	});
+}
+
+function toggleDescription(panel) {
+	$('#'+panel).toggle();
+	$('#'+panel+'-show').toggle();
+	$('#'+panel+'-hide').toggle();
 }
 
 function getCharecterSummary(characters) {

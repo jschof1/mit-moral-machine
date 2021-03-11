@@ -6,35 +6,13 @@
 	<script type="text/javascript" src="js/action.js"></script>
 </head>
 <body>
-	<container>
+	<container id="container" class="contatiner">
 		<game>
 			<div id="background-left" class="background left">
 				<img id="left" scenario="1" src="img/scenarios/1-l.png"/>
 			</div>
 			<div id="background-right" class="background right">
 				<img id="right" scenario="1" src="img/scenarios/1-r.png"/>
-			</div>
-			<div id="panel" class="background panel">
-				<h1>What should the self driving car do?</h1>
-				<p>The self driving car suffers a sudden brake failure.</p>
-				<h2>Continue ahead</h2>
-				<p id="continue-ahead"></p>
-				<section class="table">
-					<table>
-						<tr><th>Killed</th><th>Saved</th></tr>
-						<tr><td id="continue-killed"></td><td id="continue-saved"></td></tr>
-					</table>
-				</section>
-				<h2>Swerve</h2>
-				<p id="swerve"></p>
-				<section class="table">
-					<table>
-						<tr><th>Killed</th><th>Saved</th></tr>
-						<tr><td id="swerve-killed"></td><td id="swerve-saved"></td></tr>
-					</table>
-				</section>
-				
-				<p>Click one of the images here to select your option.</p>
 			</div>
 		</game>
 		<section id="results">
@@ -91,11 +69,7 @@
 			</sub-section>
 		</section>
 		<section id="credits" class="credits">
-			<div class="left-credit">
-				<a id="odilearning" href="https://theodi.org" target="_blank"><img src="img/learning-72-Pink-300px.png" alt="ODI Learning"/></a>
-			</div>
-			<div class="right-credit">
-				<p>This experiment is derived from the <a href="https://www.moralmachine.net/" target="_blank">MIT Moral Machine</a><br/>Currently no data is collected from your interactions.</p>
+				This experiment is derived from the <a href="https://www.moralmachine.net/" target="_blank">MIT Moral Machine</a>. Currently no data is collected from your interactions.
 			</div>
 
 		</section>

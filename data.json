@@ -28,19 +28,17 @@
 		"take-action": {
 			"scoring": [
 			],
-			"description": "Crash into a contrete barrier. This will result in:"
+			"description": "Swerve and crash into a contrete barrier. This will result in:"
 		}
 	},
 	{
 		"id":"2",
 		"no-action": {
 			"scoring": [
-				"Save people in car",
-				"Save more lives",
-				"Avoid intervention",
-				"Save young"
+				"Save old",
+				"Avoid intervention"
 			],
-			"saved": {
+			"killed": {
 				"genders": [
 					"Male",
 					"Female",
@@ -52,19 +50,23 @@
 					"Female (child)"
 				]
 			},
-			"killed": {
+			"saved": {
 				"genders": [
 					"Female"
 				],
 				"characters": [
 					"Female (professional)"
 				]
-			}
+			},
+			"description": "Crash into a contrete barrier. This will result in:"
 		},
 		"take-action": {
 			"scoring": [
-				"Save old"
-			]
+				"Save people in car",
+				"Save more lives",
+				"Save young"
+			],
+			"description": "Swerve and drive through a pedestrian crossing in the other lane. This will result in:"
 		}
 	},
 	{
@@ -94,13 +96,15 @@
 				"characters": [
 					"Female (professional)"
 				]
-			}
+			},
+			"description": "Drive through a pedestrian crossing ahead. This will result in:"
 		},
 		"take-action": {
 			"scoring": [
 				"Save more lives",
 				"Save young"
-			]
+			],
+			"description": "Swerve and crash into a contrete barrier. This will result in:"
 		}
 	},
 	{
@@ -129,12 +133,14 @@
 					"Male (old)",
 					"Female (old)"
 				]
-			}
+			},
+			"description": "Drive through a pedestrian crossing ahead. This will result in:"
 		},
 		"take-action": {
 			"scoring": [
 				"Save young"
-			]
+			],
+			"description": "Swerve and drive through a pedestrian crossing in the other lane. This will result in:"
 		}
 	},
 	{
@@ -164,13 +170,15 @@
 					"Male (old)",
 					"Female (old)"
 				]
-			}
+			},
+			"description": "Drive through a pedestrian crossing ahead. This will result in:"
 		},
 		"take-action": {
 			"scoring": [
 				"Save young",
 				"Save pets"
-			]
+			],
+			"description": "Swerve and drive through a pedestrian crossing in the other lane. This will result in:"
 		}
 	},
 	{
@@ -200,7 +208,8 @@
 					"Male (old)",
 					"Female (old)"
 				]
-			}
+			},
+			"description": "Drive through a pedestrian crossing ahead. This will result in:"
 		},
 		"take-action": {
 			"scoring": [
@@ -208,7 +217,8 @@
 				"Save robber",
 				"Save pet"
 			]
-		}
+		},
+		"description": "Swerve and drive through a pedestrian crossing in the other lane. This will result in:"
 	},
 	{
 		"id":"7",
@@ -233,11 +243,13 @@
 				"characters": [
 					"Female (professional)"
 				]
-			}
+			},
+			"description": "Drive through a pedestrian crossing ahead. <b>Note that the affected pedestrians are flouting the law by crossing on the red signal.</b> This will result in:"
 		},
 		"take-action": {
 			"scoring": [
-			]
+			],
+			"description": "Swerve and crash into a contrete barrier. This will result in:"
 		}
 	},
 	{
@@ -260,12 +272,14 @@
 				"characters": [
 					"Male (professional)"
 				]
-			}
+			},
+			"description": "Drive through a pedestrian crossing ahead. <b>Note that the affected pedestrians are abiding by the law crossing on a green signal.</b> This will result in:"
 		},
 		"take-action": {
 			"scoring": [
 				"Uphold law"
-			]
+			],
+			"description": "Swerve and crash into a contrete barrier. This will result in:"
 		}
 	},
 	{
@@ -291,11 +305,13 @@
 					"Robber",
 					"Pet (dog)"
 				]
-			}
+			},
+			"description": "Drive through a pedestrian crossing ahead. <b>Note that the affected pedestrians are flouting the law by crossing on the red signal.</b> This will result in:"
 		},
 		"take-action": {
 			"scoring": [	
-			]
+			],
+			"description": "Swerve and drive through a pedestrian crossing in the other lane. <b>Note that the affected pedestrians are abiding by the law crossing on a green signal.</b> This will result in:"
 		}
 	},
 	{
@@ -335,13 +351,15 @@
 					"Male (old)",
 					"Female (pregnant)"
 				]
-			}
+			},
+			"description": "Drive through a pedestrian crossing ahead. <b>Note that the affected pedestrians are abiding by the law crossing on a green signal.</b> This will result in:"
 		},
 		"take-action": {
 			"scoring": [
 				"Uphold law",
 				"Save young"
-			]
+			],
+			"description": "Swerve and drive through a pedestrian crossing in the other lane. <b>Note that the affected pedestrians are flouting the law by crossing on the red signal.</b> This will result in:"
 		}
 	}
 ]
