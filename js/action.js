@@ -23,7 +23,7 @@ function nextScenario(id) {
 		if (scenario > 0) {
 			random = Math.floor(Math.random() * 2);
 		}
-		if (next > 3) {
+		if (next > 10) {
 			window.setTimeout(function() { calculateResult();},500);
 			$('game').fadeOut(function() {
 				$('#results').fadeIn();
