@@ -1,0 +1,1489 @@
+[
+  {
+    "_component": "moral-machine-gmcq",
+    "_classes": "smaller-gmcq",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "soft",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Scenerio 1",
+    "displayTitle": "Scenerio 1",
+    "body": "",
+    "_id": "61c1e8a4493f810089f07788",
+    "_parentId": "61c1e8a4493f810089f0777b",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_tutor": {
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "id": "Scenerio 1",
+    "instruction": "",
+    "_items": [
+      {
+        "_graphic": {
+          "large": "course/en/assets/1e6aeed772a622f7a04ff1b3e3e0ae1b8155800c.png",
+          "small": "",
+          "alt": "",
+          "attribution": ""
+        },
+        "direction": "go straight",
+        "saved characters": [
+          {
+            "character": "Male (adult)",
+            "number": 1
+          }
+        ],
+        "killed characters": [
+          {
+            "character": "Male (adult)",
+            "number": 1
+          }
+        ],
+        "scoring": [
+          {
+            "choices": "Avoid Intervention"
+          },
+          {
+            "choices": "Save people in car"
+          }
+        ]
+      },
+      {
+        "_graphic": {
+          "large": "course/en/assets/9f5925e9a41a7a269a13f26860c1ea5595e3bc8d.png",
+          "small": "",
+          "alt": "",
+          "attribution": ""
+        },
+        "direction": "swerve",
+        "saved characters": [
+          {
+            "character": "Male (adult)",
+            "number": 1
+          }
+        ],
+        "killed characters": [
+          {
+            "character": "Male (adult)",
+            "number": 1
+          }
+        ],
+        "scoring": []
+      }
+    ],
+    "_attempts": 1,
+    "_isRandom": false,
+    "_recordInteraction": true,
+    "_selectable": 1,
+    "_buttons": {
+      "_submit": {
+        "buttonText": "Submit",
+        "ariaLabel": "Submit"
+      },
+      "_reset": {
+        "buttonText": "Answer recorded, scroll down to continue",
+        "ariaLabel": "Answer recorded, scroll down to continue"
+      }
+    }
+  },
+  {
+    "_component": "moral-machine-gmcq",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Scenario 2",
+    "displayTitle": "Scenario 2",
+    "body": "",
+    "_id": "61c1e8a4493f810089f0778b",
+    "_parentId": "61c1e8a4493f810089f0777c",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_tutor": {
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "id": "Scenerio2",
+    "instruction": "",
+    "_items": [
+      {
+        "_graphic": {
+          "large": "course/en/assets/38434abc02104befe38ea7da451f125a758eec05.png",
+          "small": "",
+          "alt": "",
+          "attribution": ""
+        },
+        "direction": "go straight",
+        "saved characters": [
+          {
+            "character": "Female (professional e.g. doctor)",
+            "number": 1
+          }
+        ],
+        "killed characters": [
+          {
+            "character": "Male (adult)",
+            "number": 1
+          },
+          {
+            "character": "Female (adult)",
+            "number": 1
+          },
+          {
+            "character": "Female (child)",
+            "number": 1
+          }
+        ],
+        "scoring": [
+          {
+            "choices": "Avoid Intervention"
+          },
+          {
+            "choices": "Save old"
+          }
+        ]
+      },
+      {
+        "_graphic": {
+          "large": "course/en/assets/05079bc1902257b19071a7296cfec29fbce6fa48.png",
+          "small": "",
+          "alt": "",
+          "attribution": ""
+        },
+        "direction": "swerve",
+        "saved characters": [
+          {
+            "character": "Female (adult)",
+            "number": 1
+          },
+          {
+            "character": "Female (child)",
+            "number": 1
+          },
+          {
+            "character": "Male (adult)",
+            "number": 1
+          }
+        ],
+        "killed characters": [
+          {
+            "character": "Female (professional e.g. doctor)",
+            "number": 1
+          }
+        ],
+        "scoring": [
+          {
+            "choices": "Save more people"
+          },
+          {
+            "choices": "Save people in car"
+          }
+        ]
+      }
+    ],
+    "_attempts": 1,
+    "_isRandom": false,
+    "_recordInteraction": true,
+    "_selectable": 1,
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "Answer recorded, please click the right arrow for the next scenario",
+        "ariaLabel": "Answer recorded, please click the right arrow for the next scenario"
+      }
+    }
+  },
+  {
+    "_component": "moral-machine-gmcq",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Scenario 3",
+    "displayTitle": "Scenario 3",
+    "body": "",
+    "_id": "61c1e8a5493f810089f0778e",
+    "_parentId": "61c1e8a4493f810089f07781",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_tutor": {
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "id": "Scenario 3",
+    "instruction": "",
+    "_items": [
+      {
+        "_graphic": {
+          "large": "course/en/assets/217b033056ea908d4c5438d81edff01988b3f281.png",
+          "small": "",
+          "alt": "",
+          "attribution": ""
+        },
+        "direction": "go straight",
+        "saved characters": [
+          {
+            "character": "Female (professional e.g. doctor)",
+            "number": 1
+          }
+        ],
+        "killed characters": [
+          {
+            "character": "Female (adult)",
+            "number": 1
+          },
+          {
+            "character": "Female (child)",
+            "number": 1
+          },
+          {
+            "character": "Male (adult)",
+            "number": 1
+          }
+        ],
+        "scoring": [
+          {
+            "choices": "Save people in car"
+          },
+          {
+            "choices": "Avoid Intervention"
+          },
+          {
+            "choices": "Save old"
+          }
+        ]
+      },
+      {
+        "_graphic": {
+          "large": "course/en/assets/1b653a53ed45e34159e929b9f8397aeb54fbe705.png",
+          "small": "",
+          "alt": "",
+          "attribution": ""
+        },
+        "direction": "swerve",
+        "saved characters": [
+          {
+            "character": "Female (adult)",
+            "number": 1
+          },
+          {
+            "character": "Female (child)",
+            "number": 1
+          },
+          {
+            "character": "Male (adult)",
+            "number": 1
+          }
+        ],
+        "killed characters": [
+          {
+            "character": "Female (professional e.g. doctor)",
+            "number": 1
+          }
+        ],
+        "scoring": [
+          {
+            "choices": "Save more people"
+          }
+        ]
+      }
+    ],
+    "_attempts": 1,
+    "_isRandom": false,
+    "_recordInteraction": true,
+    "_selectable": 1,
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "Answer recorded, please click the right arrow for the next scenario",
+        "ariaLabel": "Answer recorded, please click the right arrow for the next scenario"
+      }
+    }
+  },
+  {
+    "_component": "moral-machine-gmcq",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Secenario 4",
+    "displayTitle": "Secenario 4",
+    "body": "",
+    "_id": "61c1e8a5493f810089f07791",
+    "_parentId": "61c1e8a4493f810089f07783",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_tutor": {
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "id": "scenario4",
+    "instruction": "",
+    "_items": [
+      {
+        "_graphic": {
+          "large": "course/en/assets/b7e73c878526fc509274af8fbe0050b971aaefba.png",
+          "small": "",
+          "alt": "",
+          "attribution": ""
+        },
+        "direction": "go straight",
+        "saved characters": [
+          {
+            "character": "Female (retired)",
+            "number": 1
+          },
+          {
+            "character": "Male (retired)",
+            "number": 1
+          }
+        ],
+        "killed characters": [
+          {
+            "character": "Male (adult)",
+            "number": 1
+          },
+          {
+            "character": "Female (adult)",
+            "number": 1
+          }
+        ],
+        "scoring": [
+          {
+            "choices": "Save old"
+          },
+          {
+            "choices": "Avoid Intervention"
+          }
+        ]
+      },
+      {
+        "_graphic": {
+          "large": "course/en/assets/16c0613b5772c6df18e918e69efd3913fc3a5192.png",
+          "small": "",
+          "alt": "",
+          "attribution": ""
+        },
+        "direction": "go straight",
+        "saved characters": [
+          {
+            "character": "Female (adult)",
+            "number": 1
+          },
+          {
+            "character": "Male (adult)",
+            "number": 1
+          }
+        ],
+        "killed characters": [
+          {
+            "character": "Female (retired)",
+            "number": 1
+          },
+          {
+            "character": "Male (retired)",
+            "number": 1
+          }
+        ],
+        "scoring": []
+      }
+    ],
+    "_attempts": 1,
+    "_isRandom": false,
+    "_recordInteraction": true,
+    "_selectable": 1,
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "Answer recorded, please click the right arrow for the next scenario",
+        "ariaLabel": "Answer recorded, please click the right arrow for the next scenario"
+      }
+    }
+  },
+  {
+    "_component": "moral-machine-gmcq",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Scenario 5",
+    "displayTitle": "Scenario 5",
+    "body": "",
+    "_id": "61c1e8a5493f810089f07794",
+    "_parentId": "61c1e8a4493f810089f07785",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_tutor": {
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "id": "Scenario5",
+    "instruction": "",
+    "_items": [
+      {
+        "_graphic": {
+          "large": "course/en/assets/cb72ed0d7d1f39ba0e32f1f53657c4f67101b7df.png",
+          "small": "",
+          "alt": "",
+          "attribution": ""
+        },
+        "direction": "go straight",
+        "saved characters": [
+          {
+            "character": "Female (retired)",
+            "number": 1
+          },
+          {
+            "character": "Male (retired)",
+            "number": 1
+          }
+        ],
+        "killed characters": [
+          {
+            "character": "Female (child)",
+            "number": 1
+          },
+          {
+            "character": "Pet (cat)",
+            "number": 1
+          }
+        ],
+        "scoring": [
+          {
+            "choices": "Save old"
+          },
+          {
+            "choices": "Avoid Intervention"
+          },
+          {
+            "choices": "Save more people"
+          }
+        ]
+      },
+      {
+        "_graphic": {
+          "large": "course/en/assets/e9842ac2941de26a0c2afb8ede22845afce1256a.png",
+          "small": "",
+          "alt": "",
+          "attribution": ""
+        },
+        "direction": "swerve",
+        "saved characters": [
+          {
+            "character": "Female (child)",
+            "number": 1
+          },
+          {
+            "character": "Pet (cat)",
+            "number": 1
+          }
+        ],
+        "killed characters": [
+          {
+            "character": "Female (retired)",
+            "number": 1
+          },
+          {
+            "character": "Male (retired)",
+            "number": 1
+          }
+        ],
+        "scoring": [
+          {
+            "choices": "Save pets"
+          }
+        ]
+      }
+    ],
+    "_attempts": 1,
+    "_isRandom": false,
+    "_recordInteraction": true,
+    "_selectable": 1,
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "Answer recorded, please click the right arrow for the next scenario",
+        "ariaLabel": "Answer recorded, please click the right arrow for the next scenario"
+      }
+    }
+  },
+  {
+    "_component": "moral-machine-gmcq",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Scenario 6",
+    "displayTitle": "Scenario 6",
+    "body": "",
+    "_id": "61c1e8a5493f810089f07797",
+    "_parentId": "61c1e8a4493f810089f07787",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_tutor": {
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "id": "Scenario 6",
+    "instruction": "",
+    "_items": [
+      {
+        "_graphic": {
+          "large": "course/en/assets/07b4633fb993836138cec03dcc1d521b6cfc44c3.png",
+          "small": "",
+          "alt": "",
+          "attribution": "<a href=\"https://www.moralmachine.net/\" target=\"_blank\">MIT</a> <span class='assetLicence'>[CC0]</span>"
+        },
+        "direction": "go straight",
+        "saved characters": [
+          {
+            "character": "Male (professional e.g. doctor)",
+            "number": 1
+          },
+          {
+            "character": "Female (retired)",
+            "number": 1
+          }
+        ],
+        "killed characters": [
+          {
+            "character": "Robber",
+            "number": 1
+          },
+          {
+            "character": "Female (child)",
+            "number": 1
+          }
+        ],
+        "scoring": [
+          {
+            "choices": "Avoid Intervention"
+          },
+          {
+            "choices": "Save old"
+          }
+        ]
+      },
+      {
+        "_graphic": {
+          "large": "course/en/assets/63277a240e4221dfc09f8c9338b8c5ccc9fad3c5.png",
+          "small": "",
+          "alt": "",
+          "attribution": "<a href=\"https://www.moralmachine.net/\" target=\"_blank\">MIT</a> <span class='assetLicence'>[CC0]</span>"
+        },
+        "direction": "go straight",
+        "saved characters": [
+          {
+            "character": "Robber",
+            "number": 1
+          },
+          {
+            "character": "Female (child)",
+            "number": 1
+          }
+        ],
+        "killed characters": [
+          {
+            "character": "Male (professional e.g. doctor)",
+            "number": 1
+          },
+          {
+            "character": "Female (retired)",
+            "number": 1
+          }
+        ],
+        "scoring": [
+          {
+            "choices": "Save robbers"
+          }
+        ]
+      }
+    ],
+    "_attempts": 1,
+    "_isRandom": false,
+    "_recordInteraction": true,
+    "_selectable": 1,
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "Answer recorded, scroll down to continue",
+        "ariaLabel": "Answer recorded, scroll down to continue"
+      }
+    }
+  },
+  {
+    "_component": "moral-machine-gmcq",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Scenario 7",
+    "displayTitle": "Scenario 7",
+    "body": "",
+    "_id": "61c1e8a5493f810089f0779a",
+    "_parentId": "61c1e8a4493f810089f0777d",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_tutor": {
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "id": "Scenario7",
+    "instruction": "",
+    "_items": [
+      {
+        "_graphic": {
+          "large": "course/en/assets/6671dec204b05561412fe8c700913040be0909fd.png",
+          "small": "",
+          "alt": "",
+          "attribution": ""
+        },
+        "direction": "go straight",
+        "saved characters": [
+          {
+            "character": "Female (professional e.g. doctor)",
+            "number": 1
+          }
+        ],
+        "killed characters": [
+          {
+            "character": "Male (professional e.g. doctor)",
+            "number": 1
+          }
+        ],
+        "scoring": [
+          {
+            "choices": "Avoid Intervention"
+          },
+          {
+            "choices": "Save people in car"
+          },
+          {
+            "choices": "Uphold law"
+          }
+        ]
+      },
+      {
+        "_graphic": {
+          "large": "course/en/assets/ad71adaa61e744d96d956d767ab158eb378246ff.png",
+          "small": "",
+          "alt": "",
+          "attribution": ""
+        },
+        "direction": "swerve",
+        "saved characters": [
+          {
+            "character": "Male (professional e.g. doctor)",
+            "number": 1
+          }
+        ],
+        "killed characters": [
+          {
+            "character": "Female (professional e.g. doctor)",
+            "number": 1
+          }
+        ],
+        "scoring": []
+      }
+    ],
+    "_attempts": 1,
+    "_isRandom": false,
+    "_recordInteraction": true,
+    "_selectable": 1,
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "Answer recorded, please click the right arrow for the next scenario",
+        "ariaLabel": "Answer recorded, please click the right arrow for the next scenario"
+      }
+    }
+  },
+  {
+    "_component": "moral-machine-gmcq",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Scenario 8",
+    "displayTitle": "Scenario 8",
+    "body": "",
+    "_id": "61c1e8a5493f810089f0779d",
+    "_parentId": "61c1e8a4493f810089f07782",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_tutor": {
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "id": "Scenario8",
+    "instruction": "",
+    "_items": [
+      {
+        "_graphic": {
+          "large": "course/en/assets/aafa48ab660e6fbe0ce50ba7fe60237e9dbd85b6.png",
+          "small": "",
+          "alt": "",
+          "attribution": ""
+        },
+        "direction": "go straight",
+        "saved characters": [
+          {
+            "character": "Female (professional e.g. doctor)",
+            "number": 1
+          }
+        ],
+        "killed characters": [
+          {
+            "character": "Robber",
+            "number": 1
+          }
+        ],
+        "scoring": [
+          {
+            "choices": "Avoid Intervention"
+          },
+          {
+            "choices": "Save people in car"
+          }
+        ]
+      },
+      {
+        "_graphic": {
+          "large": "course/en/assets/f5b4a265878bdaadec3f7c0d514a8cee633b525f.png",
+          "small": "",
+          "alt": "",
+          "attribution": ""
+        },
+        "direction": "swerve",
+        "saved characters": [
+          {
+            "character": "Robber",
+            "number": 1
+          }
+        ],
+        "killed characters": [
+          {
+            "character": "Female (professional e.g. doctor)",
+            "number": 1
+          }
+        ],
+        "scoring": [
+          {
+            "choices": "Save robbers"
+          },
+          {
+            "choices": "Uphold law"
+          }
+        ]
+      }
+    ],
+    "_attempts": 1,
+    "_isRandom": false,
+    "_recordInteraction": true,
+    "_selectable": 1,
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "Answer recorded, please click the right arrow for the next scenario",
+        "ariaLabel": "Answer recorded, please click the right arrow for the next scenario"
+      }
+    }
+  },
+  {
+    "_component": "moral-machine-gmcq",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Scenario 9",
+    "displayTitle": "Scenario 9",
+    "body": "",
+    "_id": "61c1e8a5493f810089f077a0",
+    "_parentId": "61c1e8a4493f810089f07784",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_tutor": {
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "id": "Scenario9",
+    "instruction": "",
+    "_items": [
+      {
+        "_graphic": {
+          "large": "course/en/assets/5b4cd9226dc7be2f41e83aa22d133641851c78cc.png",
+          "small": "",
+          "alt": "",
+          "attribution": ""
+        },
+        "direction": "go straight",
+        "saved characters": [
+          {
+            "character": "Pet (dog)",
+            "number": 1
+          },
+          {
+            "character": "Robber",
+            "number": 1
+          }
+        ],
+        "killed characters": [
+          {
+            "character": "Female (professional e.g. doctor)",
+            "number": 1
+          }
+        ],
+        "scoring": [
+          {
+            "choices": "Save robbers"
+          },
+          {
+            "choices": "Save pets"
+          },
+          {
+            "choices": "Avoid Intervention"
+          },
+          {
+            "choices": "Uphold law"
+          },
+          {
+            "choices": "Save more people"
+          }
+        ]
+      },
+      {
+        "_graphic": {
+          "large": "course/en/assets/4b459655653b5860113fc505ea39f2ddd04bab69.png",
+          "small": "",
+          "alt": "",
+          "attribution": ""
+        },
+        "direction": "swerve",
+        "saved characters": [
+          {
+            "character": "Female (professional e.g. doctor)",
+            "number": 1
+          }
+        ],
+        "killed characters": [
+          {
+            "character": "Pet (dog)",
+            "number": 1
+          },
+          {
+            "character": "Robber",
+            "number": 1
+          }
+        ],
+        "scoring": []
+      }
+    ],
+    "_attempts": 1,
+    "_isRandom": false,
+    "_recordInteraction": true,
+    "_selectable": 1,
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "Answer recorded, please click the right arrow for the next scenario",
+        "ariaLabel": "Answer recorded, please click the right arrow for the next scenario"
+      }
+    }
+  },
+  {
+    "_component": "moral-machine-gmcq",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Scenario 10",
+    "displayTitle": "Scenario 10",
+    "body": "",
+    "_id": "61c1e8a5493f810089f077a3",
+    "_parentId": "61c1e8a4493f810089f07786",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_tutor": {
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "id": "Scenario10",
+    "instruction": "",
+    "_items": [
+      {
+        "_graphic": {
+          "large": "course/en/assets/e778c2d24fb05cb90d33e8e9d81a75256abef31e.png",
+          "small": "",
+          "alt": "",
+          "attribution": ""
+        },
+        "direction": "go straight",
+        "saved characters": [
+          {
+            "character": "Male (professional e.g. doctor)",
+            "number": 1
+          },
+          {
+            "character": "Female (professional e.g. doctor)",
+            "number": 1
+          },
+          {
+            "character": "Baby",
+            "number": 1
+          },
+          {
+            "character": "Female (adult)",
+            "number": 1
+          },
+          {
+            "character": "Female (retired)",
+            "number": 1
+          },
+          {
+            "character": "Male (retired)",
+            "number": 1
+          }
+        ],
+        "killed characters": [
+          {
+            "character": "Male (adult)",
+            "number": 1
+          },
+          {
+            "character": "Female (adult)",
+            "number": 1
+          },
+          {
+            "character": "Female (child)",
+            "number": 2
+          },
+          {
+            "character": "Male (child)",
+            "number": 1
+          },
+          {
+            "character": "Baby",
+            "number": 1
+          }
+        ],
+        "scoring": [
+          {
+            "choices": "Save old"
+          },
+          {
+            "choices": "Avoid Intervention"
+          },
+          {
+            "choices": "Save more people"
+          }
+        ]
+      },
+      {
+        "_graphic": {
+          "large": "course/en/assets/69cc2cc0405711616ce11092d941826c5e57f885.png",
+          "small": "",
+          "alt": "",
+          "attribution": ""
+        },
+        "direction": "swerve",
+        "saved characters": [
+          {
+            "character": "Baby",
+            "number": 1
+          },
+          {
+            "character": "Female (child)",
+            "number": 1
+          },
+          {
+            "character": "Male (adult)",
+            "number": 1
+          },
+          {
+            "character": "Female (adult)",
+            "number": 1
+          },
+          {
+            "character": "Male (child)",
+            "number": 1
+          }
+        ],
+        "killed characters": [
+          {
+            "character": "Female (professional e.g. doctor)",
+            "number": 1
+          },
+          {
+            "character": "Male (professional e.g. doctor)",
+            "number": 1
+          },
+          {
+            "character": "Male (retired)",
+            "number": 1
+          },
+          {
+            "character": "Female (retired)",
+            "number": 1
+          },
+          {
+            "character": "Female (adult)",
+            "number": 1
+          },
+          {
+            "character": "Baby",
+            "number": 1
+          }
+        ],
+        "scoring": [
+          {
+            "choices": "Uphold law"
+          }
+        ]
+      }
+    ],
+    "_attempts": 1,
+    "_isRandom": false,
+    "_recordInteraction": true,
+    "_selectable": 1,
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "Answer recorded, scroll down to continue",
+        "ariaLabel": "Answer recorded, scroll down to continue"
+      }
+    }
+  },
+  {
+    "_component": "moralMachineResults",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "soft",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Results from Scenario 1",
+    "displayTitle": "Results from Scenario 1",
+    "body": "",
+    "_id": "61c1e8a5493f810089f077a8",
+    "_parentId": "61c1e8a4493f810089f07780",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_tutor": {
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "",
+    "_isVisibleBeforeCompletion": true,
+    "_setCompletionOn": "inview",
+    "_resetType": "inherit",
+    "_assessmentId": "first-set",
+    "_retry": {
+      "button": "Retry Assessment",
+      "feedback": "",
+      "_routeToAssessment": false
+    },
+    "_completionBody": "<p>{{{feedback}}}</p>",
+    "_feedbackTemplate": "<div class=\"moralMachineResults__container\"><div id=\"top\">{{{characters-saved}}}</div><div id=\"main\">{{{save-people-in-car}}} {{{avoid-intervention}}}</div></div>"
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Introduction to data ethics ",
+    "displayTitle": "Introduction to data ethics ",
+    "body": "<p>This eLearning module is designed to accompany the introduction to data ethics course, but also act as a stand alone resource to help people understand what data ethics is.&nbsp;</p><p>The aim of this module is to provide an overview of data ethics and help to create a set of questions to be considered in any data project.&nbsp;</p><p><strong>This module introduces:</strong></p><ul><li>The definition of data ethics, and why it is important</li><li>The difference between morals, ethics and law</li><li>The situations in which data ethics need to be considered</li><li>The relationship between choice and bias</li><li>The steps that can help achieve an acceptable ethical solution</li><li>Tools to assist with data ethics considerations</li></ul>",
+    "_id": "61d7045f3e35230087e5fc58",
+    "_parentId": "61d704463e35230087e5fc57",
+    "_type": "component",
+    "_layout": "left",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_tutor": {
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "intro logo",
+    "displayTitle": "",
+    "body": "",
+    "_id": "61d704623e35230087e5fc59",
+    "_parentId": "61d704463e35230087e5fc57",
+    "_type": "component",
+    "_layout": "right",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_tutor": {
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/80593fbd168979c5513d5948c6b1407ce26c75d1.png",
+      "small": "course/en/assets/80593fbd168979c5513d5948c6b1407ce26c75d1.png",
+      "attribution": "<a href=\"http://theodi.org/\" target=\"_blank\">The Open Data Institute</a> <span class='assetLicence'>[All rights reserved]</span>",
+      "_url": "",
+      "_target": null
+    }
+  },
+  {
+    "_component": "moralMachineResults",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "soft",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Results from Scenarios 2-6",
+    "displayTitle": "Results from Scenarios 2-6",
+    "body": "",
+    "_id": "62e004eaea7748008897a685",
+    "_parentId": "62e004eaea7748008897a684",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_tutor": {
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "",
+    "_isVisibleBeforeCompletion": true,
+    "_setCompletionOn": "inview",
+    "_resetType": "inherit",
+    "_assessmentId": "second-set",
+    "_retry": {
+      "button": "Retry Assessment",
+      "feedback": "",
+      "_routeToAssessment": false
+    },
+    "_completionBody": "<p>{{{feedback}}}</p>",
+    "_feedbackTemplate": "<div class=\"moralMachineResults__container\"><div id=\"top\">{{{characters-saved}}}</div><div id=\"main\">{{{save-people-in-car}}} {{{avoid-intervention}}} {{{saving-more-lives}}} {{{age-preference}}} {{{gender-preference}}} {{{social-value-preference}}} {{{species-preference}}}</div></div>"
+  },
+  {
+    "_component": "moralMachineResults",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "soft",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Results from Scenarios 7-10",
+    "displayTitle": "Results from Scenarios 7-10",
+    "body": "",
+    "_id": "62e1587c2d41f1008b4a5b93",
+    "_parentId": "62e1587b2d41f1008b4a5b92",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_tutor": {
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "",
+    "_isVisibleBeforeCompletion": true,
+    "_setCompletionOn": "inview",
+    "_resetType": "inherit",
+    "_assessmentId": "final-set",
+    "_retry": {
+      "button": "Retry Assessment",
+      "feedback": "",
+      "_routeToAssessment": false
+    },
+    "_completionBody": "<p>{{{feedback}}}</p>",
+    "_feedbackTemplate": "<div class=\"moralMachineResults__container\"><div id=\"top\">{{{characters-saved}}}</div><div id=\"main\">{{{save-people-in-car}}} {{{avoid-intervention}}} {{{saving-more-lives}}} {{{age-preference}}} {{{gender-preference}}} {{{social-value-preference}}} {{{species-preference}}} {{{upholding-the-law}}}</div></div>"
+  }
+]
