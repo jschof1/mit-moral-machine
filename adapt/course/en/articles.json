@@ -395,7 +395,7 @@
       "_includeInTotalScore": true,
       "_assessmentWeight": 1,
       "_suppressMarking": false,
-      "_isResetOnRevisit": true,
+      "_isResetOnRevisit": false,
       "_allowResetIfPassed": true,
       "_scrollToOnReset": false,
       "_randomisation": {

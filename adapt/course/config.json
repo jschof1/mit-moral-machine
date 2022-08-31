@@ -30,7 +30,7 @@
       "_notify": 1
     }
   },
-  "__v": 198,
+  "__v": 201,
   "_completionCriteria": {
     "_requireContentCompleted": false,
     "_requireAssessmentCompleted": true
@@ -55,5 +55,39 @@
   },
   "_trickle": {
     "_completionAttribute": "_isComplete"
+  },
+  "_xapi": {
+    "_isEnabled": true,
+    "_specification": "xAPI",
+    "_activityID": "https://learning.theodi.org/xapi/activities/mit-moral-machine-test",
+    "_endpoint": "https://theodi.learninglocker.net/data/xAPI",
+    "_user": "53ad75b3008049a939627492652929bb349d93ff",
+    "_password": "048a8d334e01353a8c9d6ac0133541ed0ad84b97",
+    "_lang": "en-US",
+    "_generateIds": false,
+    "_shouldTrackState": true,
+    "_shouldUseRegistration": false,
+    "_componentBlacklist": "blank,graphic",
+    "_coreEvents": {
+      "Adapt": {
+        "router:menu": false,
+        "router:page": false,
+        "questionView:recordInteraction": true,
+        "assessments:complete": true
+      },
+      "contentObjects": {
+        "change:_isComplete": false
+      },
+      "articles": {
+        "change:_isComplete": false
+      },
+      "blocks": {
+        "change:_isComplete": true
+      },
+      "components": {
+        "change:_isComplete": true
+      }
+    },
+    "_lrsFailureBehaviour": "show"
   }
 }
