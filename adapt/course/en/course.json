@@ -6,7 +6,7 @@
   "description": "The aim of this module is to provide an overview of data ethics and help to create a set of questions to be considered in any data project. ",
   "instruction": "",
   "_htmlClasses": "",
-  "_latestTrackingId": 14,
+  "_latestTrackingId": 29,
   "_buttons": {
     "_submit": {
       "buttonText": "Submit",
@@ -74,6 +74,27 @@
         "visited": "Visited"
       }
     },
+    "_extensions": {
+      "_xapi": {
+        "confirm": "OK",
+        "lrsConnectionErrorTitle": "LRS not available",
+        "lrsConnectionErrorMessage": "We were unable to connect to your Learning Record Store (LRS). This means that your progress cannot be recorded."
+      },
+      "_trickle": {
+        "incompleteContent": "There is incomplete content above. You must complete this before you can proceed through the course."
+      },
+      "_tutor": {
+        "hideFeedback": "Hide feedback"
+      },
+      "_pageLevelProgress": {
+        "pageLevelProgress": "Page sections",
+        "pageLevelProgressIndicatorBar": "Page progress. Use this to listen to the list of regions in this topic and whether they're completed. You can jump directly to any that are incomplete or which sound particularly interesting. {{percentageComplete}}%",
+        "pageLevelProgressMenuBar": "Page completion {{percentageComplete}}%",
+        "pageLevelProgressEnd": "You have reached the end of the list of page sections.",
+        "optionalContent": "Optional content",
+        "_navOrder": "0"
+      }
+    },
     "_components": {
       "_assessmentSummary": {
         "ariaRegion": "Assessment summary."
@@ -83,6 +104,16 @@
       },
       "_dragndrop": {
         "ariaRegion": "This component is a multiple choice question. Once you have selected an option select the submit button below"
+      },
+      "_moral-machine-gmcq": {
+        "ariaRegion": "Multiple choice question",
+        "ariaCorrectAnswer": "The correct answer is {{{correctAnswer}}}",
+        "ariaCorrectAnswers": "The correct answers are {{{correctAnswer}}}",
+        "ariaUserAnswer": "The answer you chose was {{{userAnswer}}}",
+        "ariaUserAnswers": "The answers you chose were {{{userAnswer}}}"
+      },
+      "_moralMachineResults": {
+        "ariaRegion": "Assessment results."
       },
       "_text": {
         "ariaRegion": ""
@@ -94,28 +125,44 @@
       },
       "_media": {
         "ariaRegion": "Media player{{#any _transcript._inlineTranscript _transcript._externalTranscript}} and transcript{{/any}}.",
-        "skipToTranscript": "Skip to transcript"
+        "skipToTranscript": "Skip to transcript",
+        "playText": "Play",
+        "pauseText": "Pause",
+        "stopText": "Stop",
+        "audioPlayerText": "Audio Player",
+        "videoPlayerText": "Video Player",
+        "tracksText": "Captions/Subtitles",
+        "timeSliderText": "Time Slider",
+        "muteText": "Mute Toggle",
+        "unmuteStatusText": "Unmute",
+        "muteStatusText": "Mute",
+        "volumeSliderText": "Volume Slider",
+        "fullscreenText": "Fullscreen",
+        "goFullscreenText": "Go Fullscreen",
+        "turnOffFullscreenText": "Turn off Fullscreen",
+        "noneText": "None",
+        "skipBackText": "Skip back %1 seconds",
+        "allyVolumeControlText": "Use Up/Down Arrow keys to increase or decrease volume.",
+        "progessHelpText": "Use Left/Right Arrow keys to advance one second, Up/Down arrows to advance ten seconds."
       },
       "_hotgraphic": {
         "ariaRegion": "Image with selectable areas. Select each button to show more information.",
         "popupPagination": "{{itemNumber}} / {{totalItems}}"
       },
+      "_accordion": {
+        "ariaRegion": "List of expandable sections. Select each button to expand the content."
+      },
       "_graphic": {
-        "ariaRegion": ""
+        "ariaRegion": "",
+        "scrollAriaLabel": "Use the scrollbar to pan the image left and right. {{#if _graphic.alt}}{{_graphic.alt}}{{/if}}"
+      },
+      "_matching": {
+        "ariaRegion": "Matching. Select from lists and then submit.",
+        "ariaCorrectAnswer": "The correct answer for {{{itemText}}} is {{{correctAnswer}}}",
+        "ariaUserAnswer": "The answer you chose for {{{itemText}}} was {{{userAnswer}}}"
       },
       "_textinput": {
         "ariaRegion": "Text input. Type your answer and then submit."
-      },
-      "_assessmentResults": {
-        "ariaRegion": "Assessment results."
-      },
-      "_slider": {
-        "ariaRegion": "Slider. Respond to the question by selecting a value on the scale and then submit.",
-        "ariaCorrectAnswer": "The correct answer is {{{correctAnswer}}}",
-        "ariaCorrectAnswerRange": "The correct answer is any value from {{{bottom}}} to {{{top}}}",
-        "ariaUserAnswer": "The answer you chose was {{{userAnswer}}}",
-        "labelStart": "Start of the scale",
-        "labelEnd": "End of the scale"
       },
       "_mcq": {
         "ariaRegion": "Multiple choice question",
@@ -131,43 +178,19 @@
         "ariaUserAnswer": "The answer you chose was {{{userAnswer}}}",
         "ariaUserAnswers": "The answers you chose were {{{userAnswer}}}"
       },
-      "_matching": {
-        "ariaRegion": "Matching. Select from lists and then submit.",
-        "ariaCorrectAnswer": "The correct answer for {{{itemText}}} is {{{correctAnswer}}}",
-        "ariaUserAnswer": "The answer you chose for {{{itemText}}} was {{{userAnswer}}}"
-      },
-      "_moral-machine-gmcq": {
-        "ariaRegion": "Multiple choice question",
-        "ariaCorrectAnswer": "The correct answer is {{{correctAnswer}}}",
-        "ariaCorrectAnswers": "The correct answers are {{{correctAnswer}}}",
-        "ariaUserAnswer": "The answer you chose was {{{userAnswer}}}",
-        "ariaUserAnswers": "The answers you chose were {{{userAnswer}}}"
-      },
-      "_moralMachineResults": {
+      "_assessmentResults": {
         "ariaRegion": "Assessment results."
       },
-      "_accordion": {
-        "ariaRegion": "List of expandable sections. Select each button to expand the content."
-      }
-    },
-    "_extensions": {
-      "_trickle": {
-        "incompleteContent": "There is incomplete content above. You must complete this before you can proceed through the course."
+      "_slider": {
+        "ariaRegion": "Slider. Respond to the question by selecting a value on the scale and then submit.",
+        "ariaCorrectAnswer": "The correct answer is {{{correctAnswer}}}",
+        "ariaCorrectAnswerRange": "The correct answer is any value from {{{bottom}}} to {{{top}}}",
+        "ariaUserAnswer": "The answer you chose was {{{userAnswer}}}",
+        "labelStart": "Start of the scale",
+        "labelEnd": "End of the scale"
       },
-      "_tutor": {
-        "hideFeedback": "Hide feedback"
-      },
-      "_pageLevelProgress": {
-        "pageLevelProgress": "Page sections",
-        "pageLevelProgressIndicatorBar": "Page progress. Use this to listen to the list of regions in this topic and whether they're completed. You can jump directly to any that are incomplete or which sound particularly interesting. {{percentageComplete}}%",
-        "pageLevelProgressMenuBar": "Page completion {{percentageComplete}}%",
-        "pageLevelProgressEnd": "You have reached the end of the list of page sections.",
-        "optionalContent": "Optional content"
-      },
-      "_xapi": {
-        "confirm": "OK",
-        "lrsConnectionErrorTitle": "LRS not available",
-        "lrsConnectionErrorMessage": "We were unable to connect to your Learning Record Store (LRS). This means that your progress cannot be recorded."
+      "_chartjs": {
+        "ariaRegion": "This is a charting component."
       }
     },
     "_menu": {
@@ -336,11 +359,23 @@
     "_scoreToPass": 60,
     "_correctToPass": 60
   },
+  "_tutor": {
+    "_type": "notify",
+    "_classes": "",
+    "_hasNotifyBottomButton": false,
+    "_button": {
+      "text": "{{_globals._extensions._tutor.hideFeedback}}",
+      "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+    }
+  },
   "_pageLevelProgress": {
     "_isEnabled": true,
     "_showPageCompletion": true,
     "_isCompletionIndicatorEnabled": false,
     "_isShownInNavigationBar": true
+  },
+  "_branching": {
+    "_isEnabled": true
   },
   "_boxMenu": {
     "_backgroundImage": {

@@ -1,4 +1,17 @@
 {
+  "d1d24b4afcea5906ce1684f8cb3231a3ec0446f6.png": {
+    "title": "Clipboard orange",
+    "description": "clipboard orange",
+    "source": "http://www.shutterstock.com/pic-189810137.html",
+    "licence": "Shutterstock standard licence",
+    "attribution": "Kritchanut",
+    "tags": [
+      {
+        "title": "ODI splash",
+        "_id": "5ee397a3b045644557c81a7a"
+      }
+    ]
+  },
   "80593fbd168979c5513d5948c6b1407ce26c75d1.png": {
     "title": "ODI Learning Roundal Blue-Pink",
     "description": "ODI Learning Roundal Blue-Pink",
@@ -165,6 +178,30 @@
     "source": "unknown",
     "licence": "unknown",
     "attribution": "unknown",
+    "tags": []
+  },
+  "fa9990f766bc06c1a377841ae06f5dce1eafef26.jpg": {
+    "title": "Authoring tool",
+    "description": "Authoring tool",
+    "source": "https://www.adaptlearning.org/index.php/adapt-authoring-tool/",
+    "licence": "CC-BY",
+    "attribution": "Adapt eLearning",
+    "tags": []
+  },
+  "df4730a29a30d8456a5cdeaab53c34486c8af087.png": {
+    "title": "Kubler-ross change curve for ethics",
+    "description": "Kubler-ross change curve for ethics",
+    "source": "https://theodi.org",
+    "licence": "CC-BY",
+    "attribution": "Open Data Institute",
+    "tags": []
+  },
+  "4bbe45cb9b535492ad4bc6e06f069d0424e5e11e.png": {
+    "title": "MIT-Moral-Machine - Younger vs Older",
+    "description": "MIT-Moral-Machine - Younger vs Older",
+    "source": "https://theodi.org",
+    "licence": "CC-BY",
+    "attribution": "Open Data Institute",
     "tags": []
   }
 }

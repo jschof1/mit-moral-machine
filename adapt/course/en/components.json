@@ -9,9 +9,9 @@
     "_isResetOnRevisit": "false",
     "_ariaLevel": 0,
     "_disableAccessibilityState": false,
-    "title": "Scenerio 1",
-    "displayTitle": "Scenerio 1",
-    "body": "",
+    "title": "Scenerio 1: A man for a man",
+    "displayTitle": "Scenerio 1: A man for a man",
+    "body": "<p>In this scenario there is one male in the car and one male on the crossing ahead. You can choose for the car to swerve, killing the man in the car, or for the car to continue straight, killing the man on the crossing.&nbsp;</p><p>It is your choice.</p>",
     "_id": "61c1e8a4493f810089f07788",
     "_parentId": "61c1e8a4493f810089f0777b",
     "_type": "component",
@@ -21,7 +21,12 @@
       "_classes": "",
       "_percentInviewVertical": 50
     },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
     "_tutor": {
+      "_isInherited": false,
       "_type": "notify",
       "_classes": "",
       "_hasNotifyBottomButton": false,
@@ -30,12 +35,8 @@
         "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
       }
     },
-    "_pageLevelProgress": {
-      "_isEnabled": true,
-      "_isCompletionIndicatorEnabled": false
-    },
     "id": "Scenerio 1",
-    "instruction": "",
+    "instruction": "Choose how you would programme the car to respond",
     "_items": [
       {
         "_graphic": {
@@ -106,7 +107,7 @@
   },
   {
     "_component": "moral-machine-gmcq",
-    "_classes": "",
+    "_classes": "smaller-gmcq",
     "_isOptional": false,
     "_isAvailable": true,
     "_isHidden": false,
@@ -126,7 +127,12 @@
       "_classes": "",
       "_percentInviewVertical": 50
     },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
     "_tutor": {
+      "_isInherited": true,
       "_type": "notify",
       "_classes": "",
       "_hasNotifyBottomButton": false,
@@ -134,10 +140,6 @@
         "text": "{{_globals._extensions._tutor.hideFeedback}}",
         "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
       }
-    },
-    "_pageLevelProgress": {
-      "_isEnabled": true,
-      "_isCompletionIndicatorEnabled": false
     },
     "id": "Scenerio2",
     "instruction": "",
@@ -227,14 +229,14 @@
         "ariaLabel": ""
       },
       "_reset": {
-        "buttonText": "Answer recorded, please click the right arrow for the next scenario",
-        "ariaLabel": "Answer recorded, please click the right arrow for the next scenario"
+        "buttonText": "Answer recorded, please scroll down for the next scenario",
+        "ariaLabel": "Answer recorded, please scroll down for the next scenario"
       }
     }
   },
   {
     "_component": "moral-machine-gmcq",
-    "_classes": "",
+    "_classes": "smaller-gmcq",
     "_isOptional": false,
     "_isAvailable": true,
     "_isHidden": false,
@@ -254,7 +256,12 @@
       "_classes": "",
       "_percentInviewVertical": 50
     },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
     "_tutor": {
+      "_isInherited": true,
       "_type": "notify",
       "_classes": "",
       "_hasNotifyBottomButton": false,
@@ -262,10 +269,6 @@
         "text": "{{_globals._extensions._tutor.hideFeedback}}",
         "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
       }
-    },
-    "_pageLevelProgress": {
-      "_isEnabled": true,
-      "_isCompletionIndicatorEnabled": false
     },
     "id": "Scenario 3",
     "instruction": "",
@@ -355,14 +358,14 @@
         "ariaLabel": ""
       },
       "_reset": {
-        "buttonText": "Answer recorded, please click the right arrow for the next scenario",
-        "ariaLabel": "Answer recorded, please click the right arrow for the next scenario"
+        "buttonText": "Answer recorded, please scroll down for the next scenario",
+        "ariaLabel": "Answer recorded, please scroll down for the next scenario"
       }
     }
   },
   {
     "_component": "moral-machine-gmcq",
-    "_classes": "",
+    "_classes": "smaller-gmcq",
     "_isOptional": false,
     "_isAvailable": true,
     "_isHidden": false,
@@ -382,7 +385,12 @@
       "_classes": "",
       "_percentInviewVertical": 50
     },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
     "_tutor": {
+      "_isInherited": true,
       "_type": "notify",
       "_classes": "",
       "_hasNotifyBottomButton": false,
@@ -390,10 +398,6 @@
         "text": "{{_globals._extensions._tutor.hideFeedback}}",
         "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
       }
-    },
-    "_pageLevelProgress": {
-      "_isEnabled": true,
-      "_isCompletionIndicatorEnabled": false
     },
     "id": "scenario4",
     "instruction": "",
@@ -476,14 +480,14 @@
         "ariaLabel": ""
       },
       "_reset": {
-        "buttonText": "Answer recorded, please click the right arrow for the next scenario",
-        "ariaLabel": "Answer recorded, please click the right arrow for the next scenario"
+        "buttonText": "Answer recorded, please scroll down for the next scenario",
+        "ariaLabel": "Answer recorded, please scroll down for the next scenario"
       }
     }
   },
   {
     "_component": "moral-machine-gmcq",
-    "_classes": "",
+    "_classes": "smaller-gmcq",
     "_isOptional": false,
     "_isAvailable": true,
     "_isHidden": false,
@@ -503,7 +507,12 @@
       "_classes": "",
       "_percentInviewVertical": 50
     },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
     "_tutor": {
+      "_isInherited": true,
       "_type": "notify",
       "_classes": "",
       "_hasNotifyBottomButton": false,
@@ -511,10 +520,6 @@
         "text": "{{_globals._extensions._tutor.hideFeedback}}",
         "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
       }
-    },
-    "_pageLevelProgress": {
-      "_isEnabled": true,
-      "_isCompletionIndicatorEnabled": false
     },
     "id": "Scenario5",
     "instruction": "",
@@ -604,14 +609,14 @@
         "ariaLabel": ""
       },
       "_reset": {
-        "buttonText": "Answer recorded, please click the right arrow for the next scenario",
-        "ariaLabel": "Answer recorded, please click the right arrow for the next scenario"
+        "buttonText": "Answer recorded, please scroll down for the next scenario",
+        "ariaLabel": "Answer recorded, please scroll down for the next scenario"
       }
     }
   },
   {
     "_component": "moral-machine-gmcq",
-    "_classes": "",
+    "_classes": "smaller-gmcq",
     "_isOptional": false,
     "_isAvailable": true,
     "_isHidden": false,
@@ -631,7 +636,12 @@
       "_classes": "",
       "_percentInviewVertical": 50
     },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
     "_tutor": {
+      "_isInherited": true,
       "_type": "notify",
       "_classes": "",
       "_hasNotifyBottomButton": false,
@@ -639,10 +649,6 @@
         "text": "{{_globals._extensions._tutor.hideFeedback}}",
         "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
       }
-    },
-    "_pageLevelProgress": {
-      "_isEnabled": true,
-      "_isCompletionIndicatorEnabled": false
     },
     "id": "Scenario 6",
     "instruction": "",
@@ -652,7 +658,7 @@
           "large": "course/en/assets/07b4633fb993836138cec03dcc1d521b6cfc44c3.png",
           "small": "",
           "alt": "",
-          "attribution": "<a href=\"https://www.moralmachine.net/\" target=\"_blank\">MIT</a> <span class='assetLicence'>[CC0]</span>"
+          "attribution": ""
         },
         "direction": "go straight",
         "saved characters": [
@@ -689,7 +695,7 @@
           "large": "course/en/assets/63277a240e4221dfc09f8c9338b8c5ccc9fad3c5.png",
           "small": "",
           "alt": "",
-          "attribution": "<a href=\"https://www.moralmachine.net/\" target=\"_blank\">MIT</a> <span class='assetLicence'>[CC0]</span>"
+          "attribution": ""
         },
         "direction": "go straight",
         "saved characters": [
@@ -736,7 +742,7 @@
   },
   {
     "_component": "moral-machine-gmcq",
-    "_classes": "",
+    "_classes": "smaller-gmcq",
     "_isOptional": false,
     "_isAvailable": true,
     "_isHidden": false,
@@ -756,7 +762,12 @@
       "_classes": "",
       "_percentInviewVertical": 50
     },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
     "_tutor": {
+      "_isInherited": true,
       "_type": "notify",
       "_classes": "",
       "_hasNotifyBottomButton": false,
@@ -764,10 +775,6 @@
         "text": "{{_globals._extensions._tutor.hideFeedback}}",
         "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
       }
-    },
-    "_pageLevelProgress": {
-      "_isEnabled": true,
-      "_isCompletionIndicatorEnabled": false
     },
     "id": "Scenario7",
     "instruction": "",
@@ -837,14 +844,14 @@
         "ariaLabel": ""
       },
       "_reset": {
-        "buttonText": "Answer recorded, please click the right arrow for the next scenario",
-        "ariaLabel": "Answer recorded, please click the right arrow for the next scenario"
+        "buttonText": "Answer recorded, please scroll down for the next scenario",
+        "ariaLabel": "Answer recorded, please scroll down for the next scenario"
       }
     }
   },
   {
     "_component": "moral-machine-gmcq",
-    "_classes": "",
+    "_classes": "smaller-gmcq",
     "_isOptional": false,
     "_isAvailable": true,
     "_isHidden": false,
@@ -864,7 +871,12 @@
       "_classes": "",
       "_percentInviewVertical": 50
     },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
     "_tutor": {
+      "_isInherited": true,
       "_type": "notify",
       "_classes": "",
       "_hasNotifyBottomButton": false,
@@ -872,10 +884,6 @@
         "text": "{{_globals._extensions._tutor.hideFeedback}}",
         "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
       }
-    },
-    "_pageLevelProgress": {
-      "_isEnabled": true,
-      "_isCompletionIndicatorEnabled": false
     },
     "id": "Scenario8",
     "instruction": "",
@@ -949,14 +957,14 @@
         "ariaLabel": ""
       },
       "_reset": {
-        "buttonText": "Answer recorded, please click the right arrow for the next scenario",
-        "ariaLabel": "Answer recorded, please click the right arrow for the next scenario"
+        "buttonText": "Answer recorded, please scroll down for the next scenario",
+        "ariaLabel": "Answer recorded, please scroll down for the next scenario"
       }
     }
   },
   {
     "_component": "moral-machine-gmcq",
-    "_classes": "",
+    "_classes": "smaller-gmcq",
     "_isOptional": false,
     "_isAvailable": true,
     "_isHidden": false,
@@ -976,7 +984,12 @@
       "_classes": "",
       "_percentInviewVertical": 50
     },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
     "_tutor": {
+      "_isInherited": true,
       "_type": "notify",
       "_classes": "",
       "_hasNotifyBottomButton": false,
@@ -984,10 +997,6 @@
         "text": "{{_globals._extensions._tutor.hideFeedback}}",
         "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
       }
-    },
-    "_pageLevelProgress": {
-      "_isEnabled": true,
-      "_isCompletionIndicatorEnabled": false
     },
     "id": "Scenario9",
     "instruction": "",
@@ -1071,14 +1080,14 @@
         "ariaLabel": ""
       },
       "_reset": {
-        "buttonText": "Answer recorded, please click the right arrow for the next scenario",
-        "ariaLabel": "Answer recorded, please click the right arrow for the next scenario"
+        "buttonText": "Answer recorded, please scroll down for the next scenario",
+        "ariaLabel": "Answer recorded, please scroll down for the next scenario"
       }
     }
   },
   {
     "_component": "moral-machine-gmcq",
-    "_classes": "",
+    "_classes": "smaller-gmcq",
     "_isOptional": false,
     "_isAvailable": true,
     "_isHidden": false,
@@ -1098,7 +1107,12 @@
       "_classes": "",
       "_percentInviewVertical": 50
     },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
     "_tutor": {
+      "_isInherited": true,
       "_type": "notify",
       "_classes": "",
       "_hasNotifyBottomButton": false,
@@ -1106,10 +1120,6 @@
         "text": "{{_globals._extensions._tutor.hideFeedback}}",
         "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
       }
-    },
-    "_pageLevelProgress": {
-      "_isEnabled": true,
-      "_isCompletionIndicatorEnabled": false
     },
     "id": "Scenario10",
     "instruction": "",
@@ -1261,54 +1271,6 @@
     }
   },
   {
-    "_component": "moralMachineResults",
-    "_classes": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_isResetOnRevisit": "false",
-    "_ariaLevel": 0,
-    "_disableAccessibilityState": false,
-    "title": "Results from Scenario 1",
-    "displayTitle": "Results from Scenario 1",
-    "body": "",
-    "_id": "61c1e8a5493f810089f077a8",
-    "_parentId": "61c1e8a4493f810089f07780",
-    "_type": "component",
-    "_layout": "full",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "_tutor": {
-      "_type": "notify",
-      "_classes": "",
-      "_hasNotifyBottomButton": false,
-      "_button": {
-        "text": "{{_globals._extensions._tutor.hideFeedback}}",
-        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
-      }
-    },
-    "_pageLevelProgress": {
-      "_isEnabled": true,
-      "_isCompletionIndicatorEnabled": false
-    },
-    "instruction": "",
-    "_isVisibleBeforeCompletion": true,
-    "_setCompletionOn": "inview",
-    "_resetType": "soft",
-    "_assessmentId": "first-set",
-    "_retry": {
-      "button": "Change your answers to scenario 1",
-      "feedback": "",
-      "_routeToAssessment": false
-    },
-    "_completionBody": "<p>{{{feedback}}}</p>",
-    "_feedbackTemplate": "<div class=\"moralMachineResults__container\"><div id=\"top\">{{{characters-saved}}}</div><div id=\"main\">{{{save-people-in-car}}} {{{avoid-intervention}}}</div></div>"
-  },
-  {
     "_component": "text",
     "_classes": "",
     "_isOptional": false,
@@ -1318,9 +1280,9 @@
     "_isResetOnRevisit": "false",
     "_ariaLevel": 0,
     "_disableAccessibilityState": false,
-    "title": "Introduction to data ethics ",
-    "displayTitle": "Introduction to data ethics ",
-    "body": "<p>This eLearning module is designed to accompany the introduction to data ethics course, but also act as a stand alone resource to help people understand what data ethics is.&nbsp;</p><p>The aim of this module is to provide an overview of data ethics and help to create a set of questions to be considered in any data project.&nbsp;</p><p><strong>This module introduces:</strong></p><ul><li>The definition of data ethics, and why it is important</li><li>The difference between morals, ethics and law</li><li>The situations in which data ethics need to be considered</li><li>The relationship between choice and bias</li><li>The steps that can help achieve an acceptable ethical solution</li><li>Tools to assist with data ethics considerations</li></ul>",
+    "title": "Why is ethics important?",
+    "displayTitle": "Why is ethics important?",
+    "body": "<p>Ethics are the principles that guide us and control behaviour. Ethics can be both individual, organisational and societal. Sometimes the two may even be in conflict.&nbsp;</p><p>In this module we look at a number of ethical dilemmas. Through these we will explore the relationship between individual and societal ethics and the connection with law.&nbsp;</p><p><strong>This module introduces:</strong></p><ul><li>Why is ethics important?</li><li>What drives our ethical beliefs and choices</li><li>The relationship between choice and bias</li><li>The difference between morals, ethics and law</li><li>Who should decide what is acceptable</li><li>Tools that begin to help us evaluate the impact of our choices</li></ul>",
     "_id": "61d7045f3e35230087e5fc58",
     "_parentId": "61d704463e35230087e5fc57",
     "_type": "component",
@@ -1413,6 +1375,7 @@
       "_percentInviewVertical": 50
     },
     "_tutor": {
+      "_isInherited": true,
       "_type": "notify",
       "_classes": "",
       "_hasNotifyBottomButton": false,
@@ -1435,7 +1398,7 @@
       "feedback": "",
       "_routeToAssessment": false
     },
-    "_completionBody": "<p>{{{feedback}}}</p>",
+    "_completionBody": "<p>Here are the results of your choices from last set of scenarios. Your biases are shown with who you saved or killed the most along with your preferences.</p><p>{{{feedback}}}</p>",
     "_feedbackTemplate": "<div class=\"moralMachineResults__container\"><div id=\"top\">{{{characters-saved}}}</div><div id=\"main\">{{{save-people-in-car}}} {{{avoid-intervention}}} {{{saving-more-lives}}} {{{age-preference}}} {{{gender-preference}}} {{{social-value-preference}}} {{{species-preference}}}</div></div>"
   },
   {
@@ -1461,6 +1424,7 @@
       "_percentInviewVertical": 50
     },
     "_tutor": {
+      "_isInherited": true,
       "_type": "notify",
       "_classes": "",
       "_hasNotifyBottomButton": false,
@@ -1483,7 +1447,1457 @@
       "feedback": "",
       "_routeToAssessment": false
     },
-    "_completionBody": "<p>{{{feedback}}}</p>",
+    "_completionBody": "<p>How did you do this time. Did you always uphold the law when making your choices?</p><p>{{{feedback}}}</p>",
     "_feedbackTemplate": "<div class=\"moralMachineResults__container\"><div id=\"top\">{{{characters-saved}}}</div><div id=\"main\">{{{save-people-in-car}}} {{{avoid-intervention}}} {{{saving-more-lives}}} {{{age-preference}}} {{{gender-preference}}} {{{social-value-preference}}} {{{species-preference}}} {{{upholding-the-law}}}</div></div>"
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Why is ethics important in relation to data?",
+    "displayTitle": "Why is ethics important in relation to data?",
+    "body": "<p>At the ODI, we advocate for and support practices that increase trust and trustworthiness: building ethical considerations into how data is collected, managed and used; ensuring equity around who accesses, uses and benefits from data; engaging widely with affected people and organisations.&nbsp;</p><p>We live in a world of data where machines and algorithms are making automated decisions at scale that affect everything from provision of healthcare, allocation of benefits and credit to predicting crime and even deciding the direction of travel for a self-driving car. All of these advances in technology rely on huge amounts of data. We need to be aware of the limitations of the data and the impact of how the technology is used on different people in society.&nbsp;</p>",
+    "_id": "630f794a6b4097008b2afd61",
+    "_parentId": "630f78f16b4097008b2afd60",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_tutor": {
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Thinking about ethical dilemmas ",
+    "displayTitle": "Thinking about ethical dilemmas ",
+    "body": "<p>Sometimes there is no easy answer.</p><p>Throughout this module you will be presented with a number of ethical dilemmas. Through these we will explore the relationship between individual and societal ethics and the connection with law.&nbsp;</p><p>There is no ideal outcome for any of the dilemmas. Data about your choices is collected in order to allow you to compare your own choices against everyone else's average (your choices are added to this average once you have given the answers to all scenarios). We would request that you make genuine informed choices rather than pick randomly as this can spoil results for others. We cannot stop you doing this, but it is a good first step in any ethical deliberation to consider the negative impacts on others of your action.</p>",
+    "_id": "630f7ad06b4097008b2afd63",
+    "_parentId": "630f7a8b6b4097008b2afd62",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_tutor": {
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Introducing the self driving cars dilemma",
+    "displayTitle": "",
+    "body": "<p>The dilemma we shall be exploring is that of a self driving car.&nbsp;</p><p>We are thankful to the team at MIT who put together this experiment in 2016 and have published many papers analysing the results of people from around the world judging different situations.&nbsp;</p><p>In the dilemma, there is a self-driving car whose brakes have failed. There are no physical controls in the car and human intervention is not possible. However the car can still steer itself.&nbsp;</p><p>You play the role of the software engineer who is programming the car to respond to each scenario. The car can either continue straight or swerve. These are the only two choices. In both cases the car will only stop if you choose to direct it into a crash barrier on the road. In other cases the car will continue.&nbsp;</p><p>In all cases a number of people will be killed as a result of the choice.&nbsp;</p><p>When you are ready to proceed to the first dilemma, click the button below.&nbsp;</p>",
+    "_id": "630f7d226b4097008b2afd65",
+    "_parentId": "630f7d0e6b4097008b2afd64",
+    "_type": "component",
+    "_layout": "left",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_tutor": {
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Some appropriate picture",
+    "displayTitle": "",
+    "body": "",
+    "_id": "630f7d2a6b4097008b2afd66",
+    "_parentId": "630f7d0e6b4097008b2afd64",
+    "_type": "component",
+    "_layout": "right",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_tutor": {
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/fa9990f766bc06c1a377841ae06f5dce1eafef26.jpg",
+      "small": "course/en/assets/fa9990f766bc06c1a377841ae06f5dce1eafef26.jpg",
+      "attribution": "<a href=\"https://www.adaptlearning.org/index.php/adapt-authoring-tool/\" target=\"_blank\">Adapt eLearning</a> <span class='assetLicence'>[CC-BY]</span>",
+      "_url": "",
+      "_target": null
+    }
+  },
+  {
+    "_component": "mcq",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Your choice: Make an intervention",
+    "displayTitle": "Your choice: Make an intervention",
+    "body": "<p>You chose to make an intervention. Which of the following reasons played a factor in your decision?</p>",
+    "_id": "630f80516b4097008b2afd6c",
+    "_parentId": "630f800d6b4097008b2afd6a",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "instruction": "Tick all that apply",
+    "_items": [
+      {
+        "text": "The person in the car took the risk by choosing to be in a self driving car.",
+        "_shouldBeSelected": true,
+        "_isPartlyCorrect": false,
+        "feedback": "",
+        "_score": 0
+      },
+      {
+        "text": "This is what I would do if I was in control of the car.",
+        "_shouldBeSelected": true,
+        "_isPartlyCorrect": false,
+        "feedback": "",
+        "_score": 0
+      },
+      {
+        "text": "If the only way to stop the car is by crashing into the barrier then there is potential for it to kill more people further down the road unless intervention is taken.",
+        "_shouldBeSelected": true,
+        "_isPartlyCorrect": false,
+        "feedback": "",
+        "_score": 0
+      },
+      {
+        "text": "I’m hoping that the passenger sees what is happening and can prepare for the crash, jump out the car or be saved by an airbag.",
+        "_shouldBeSelected": true,
+        "_isPartlyCorrect": false,
+        "feedback": "",
+        "_score": 0
+      },
+      {
+        "text": "None of the above",
+        "_shouldBeSelected": true,
+        "_isPartlyCorrect": false,
+        "feedback": "",
+        "_score": 0
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": false,
+    "_canShowFeedback": false,
+    "_canShowMarking": false,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": false,
+    "_recordInteraction": true,
+    "_hasItemScoring": false,
+    "_questionWeight": 1,
+    "_selectable": 4,
+    "_feedback": {
+      "title": "Feedback",
+      "correct": "<p>Thanks for your feedback. Below you can see how you compare to others who also chose to intervene.</p>",
+      "_incorrect": {
+        "final": "<p>Thanks for your feedback. Below you can see how you compare to others who also chose to intervene.</p>",
+        "notFinal": "<p>Thanks for your feedback. Below you can see how you compare to others who also chose to intervene.</p><p>&nbsp;</p>"
+      },
+      "_partlyCorrect": {
+        "final": "<p>Thanks for your feedback. Below you can see how you compare to others who also chose to intervene.</p>",
+        "notFinal": "<p>Thanks for your feedback. Below you can see how you compare to others who also chose to intervene.</p>"
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "Submit",
+        "ariaLabel": "Submit"
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_component": "mcq",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Your choice: Avoid intervention",
+    "displayTitle": "Your choice: Avoid intervention",
+    "body": "<p>You chose to not&nbsp;intervene. Which of the following reasons played a factor in your decision?</p>",
+    "_id": "630f81656b4097008b2afd6f",
+    "_parentId": "630f81656b4097008b2afd6e",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_tutor": {
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "Tick all that apply",
+    "_items": [
+      {
+        "text": "The passenger should be the primary concern of the car.",
+        "_shouldBeSelected": true,
+        "_isPartlyCorrect": false,
+        "feedback": "",
+        "_score": 0
+      },
+      {
+        "text": "This is what I would do if I was in control of the car.",
+        "_shouldBeSelected": true,
+        "_isPartlyCorrect": false,
+        "feedback": "",
+        "_score": 0
+      },
+      {
+        "text": "The pedestrian is taking a risk by choosing the road without there being a sensible distance between them and the approaching car.",
+        "_shouldBeSelected": true,
+        "_isPartlyCorrect": false,
+        "feedback": "",
+        "_score": 0
+      },
+      {
+        "text": "I’m hoping that the pedestrian is able to get out of the way of the car.",
+        "_shouldBeSelected": true,
+        "_isPartlyCorrect": false,
+        "feedback": "",
+        "_score": 0
+      },
+      {
+        "text": "None of the above",
+        "_shouldBeSelected": true,
+        "_isPartlyCorrect": false,
+        "feedback": "",
+        "_score": 0
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": false,
+    "_canShowFeedback": true,
+    "_canShowMarking": false,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": false,
+    "_recordInteraction": true,
+    "_hasItemScoring": false,
+    "_questionWeight": 1,
+    "_selectable": 4,
+    "_feedback": {
+      "title": "Feedback",
+      "correct": "<p>Thanks for your feedback. Below you can see how you compare to others who also chose to intervene.</p>",
+      "_incorrect": {
+        "final": "<p>Thanks for your feedback. Below you can see how you compare to others who also chose to intervene.</p>",
+        "notFinal": "<p>Thanks for your feedback. Below you can see how you compare to others who also chose to intervene.</p>"
+      },
+      "_partlyCorrect": {
+        "final": "<p>Thanks for your feedback. Below you can see how you compare to others who also chose to intervene.</p>",
+        "notFinal": "<p>Thanks for your feedback. Below you can see how you compare to others who also chose to intervene.</p>"
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_component": "mcq",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "The implications of doing nothing",
+    "displayTitle": "The implications of doing nothing",
+    "body": "<p>Is choosing to not intervene (go straight) a <a href=\"https://dictionary.cambridge.org/dictionary/english/get-out-of-jail-free-card\" target=\"_blank\">get-out-of-jail-free card</a>?</p>",
+    "_id": "630f85666b4097008b2afd72",
+    "_parentId": "630f85356b4097008b2afd71",
+    "_type": "component",
+    "_layout": "left",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "",
+    "_items": [
+      {
+        "text": "Yes",
+        "_shouldBeSelected": false,
+        "_isPartlyCorrect": false,
+        "feedback": "",
+        "_score": 0
+      },
+      {
+        "text": "No",
+        "_shouldBeSelected": true,
+        "_isPartlyCorrect": false,
+        "feedback": "",
+        "_score": 0
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": false,
+    "_recordInteraction": true,
+    "_hasItemScoring": false,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_feedback": {
+      "title": "That’s right!",
+      "correct": "<p><strong>That’s right!</strong></p><p dir=\"ltr\">Choosing to not intervene is still a choice, there is no get-out-of-jail-free card.&nbsp;</p><p dir=\"ltr\">Did you know that it is still fairly commonplace in computer code for the system to throw an exception it does not know how to deal with. As a simple example take the following code:</p><p dir=\"ltr\">If ( number &gt; 10 ) {<br />&nbsp;&nbsp;&nbsp;&nbsp;goLeft();<br />} else if (number &lt; 5 ) {<br />&nbsp;&nbsp;&nbsp;&nbsp;goRight();<br />} else {<br />&nbsp; &nbsp; throw(exception);<br />}<br />What if the number was between 5 and 10. An exception is thrown and no choice is made. Who deals with that? Or does the human simply see a <a href=\"https://en.wikipedia.org/wiki/Blue_screen_of_death\" target=\"_blank\">blue screen of death</a> and the machine restart.</p>",
+      "_incorrect": {
+        "final": "<p><strong>Are you sure about that?</strong></p><p dir=\"ltr\">Choosing to not intervene is still a choice, there is no get-out-of-jail-free card.&nbsp;</p><p dir=\"ltr\">Did you know that it is still fairly commonplace in computer code for the system to throw an exception it does not know how to deal with. As a simple example take the following code:</p><p dir=\"ltr\">If ( number &gt; 10 ) {<br />&nbsp;&nbsp;&nbsp;&nbsp;goLeft();<br />} else if (number &lt; 5 ) {<br />&nbsp;&nbsp;&nbsp;&nbsp;goRight();<br />} else {<br />&nbsp; &nbsp; throw(exception);<br />}<br />What if the number was between 5 and 10. An exception is thrown and no choice is made. Who deals with that? Or does the human simply see a <a href=\"https://en.wikipedia.org/wiki/Blue_screen_of_death\" target=\"_blank\">blue screen of death</a> and the machine restart.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Go straight",
+    "displayTitle": "",
+    "body": "",
+    "_id": "630f856a6b4097008b2afd73",
+    "_parentId": "630f85356b4097008b2afd71",
+    "_type": "component",
+    "_layout": "right",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_tutor": {
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "longdescription": "",
+      "large": "course/en/assets/1e6aeed772a622f7a04ff1b3e3e0ae1b8155800c.png",
+      "small": "course/en/assets/1e6aeed772a622f7a04ff1b3e3e0ae1b8155800c.png",
+      "attribution": "<a href=\"unknown\" target=\"_blank\">unknown</a> <span class='assetLicence'>[unknown]</span>",
+      "_url": "",
+      "_target": null
+    },
+    "_isScrollable": false,
+    "_defaultScrollPercent": 0
+  },
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Ethics and the 5 stages of grief",
+    "displayTitle": "Ethics and the 5 stages of grief",
+    "body": "<p>Considering, and not ignoring, negative impacts is important in ethical discussion. However, denial that the negative situation won’t ever happen is the first of the five stages of grief.&nbsp;</p><p>It is common to witness one or more of these stages when considering an ethical dilemma.&nbsp;</p><p>It is also important to realise, then even if you have gone through the five stages yourself; others impacted by the decision made might not have. This is one of the main reasons why early and frequent engagement with stakeholders is likely to be very important to reach a common and acceptable decision.&nbsp;</p>",
+    "_id": "630f883c6b4097008b2afd78",
+    "_parentId": "630f88136b4097008b2afd76",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_tutor": {
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/df4730a29a30d8456a5cdeaab53c34486c8af087.png",
+      "small": "course/en/assets/df4730a29a30d8456a5cdeaab53c34486c8af087.png",
+      "attribution": "<a href=\"https://theodi.org\" target=\"_blank\">Open Data Institute</a> <span class='assetLicence'>[CC-BY]</span>",
+      "_url": "",
+      "_target": null
+    }
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Scenarios 2-6: Variation",
+    "displayTitle": "Scenarios 2-6: Variation",
+    "body": "<p>The following scenarios introduce variation in terms of different characters — young, old, business and medical professionals, pets and even some criminals. Beware, we also remove the barrier and passengers from the car to mix it up again. Your choices remain the same, swerve or continue ahead.</p>",
+    "_id": "630f8a9d6b4097008b2afd7d",
+    "_parentId": "630f8a806b4097008b2afd7c",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_tutor": {
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "mcq",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Is it possible to eliminate bias in the result?",
+    "displayTitle": "",
+    "body": "<p>Based upon your choices, is it possible to completely eliminate bias in the results? Eg. What if it was found out that you killed more doctors than any other type of person?</p>",
+    "_id": "630f8c096b4097008b2afd81",
+    "_parentId": "630f8b9c6b4097008b2afd7f",
+    "_type": "component",
+    "_layout": "left",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_tutor": {
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "",
+    "_items": [
+      {
+        "text": "Yes",
+        "_shouldBeSelected": false,
+        "_isPartlyCorrect": false,
+        "feedback": "",
+        "_score": 0
+      },
+      {
+        "text": "No",
+        "_shouldBeSelected": true,
+        "_isPartlyCorrect": false,
+        "feedback": "",
+        "_score": 0
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": false,
+    "_recordInteraction": true,
+    "_hasItemScoring": false,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p><strong>That’s right!</strong></p><p>It is highly unlikely that in any dilemma you will be able to eliminate bias from the result. Imagine if the car was making decisions based on who it has adversely impacted before and thus was consciously trying to introduce balance. There are ongoing conversations related to techniques to reduce bias in data, including oversampling (or generating additional data) to fill gaps or even to paint a different picture to that presented by the collected data. However is oversampled (or synthetic) data a representation of a world we want to see and still just as biased as the person who creates it?.&nbsp;</p><p>Bias is hard to deal with, understanding what biases there are is the first step. So let’s see what biases your choices resulted in and how these compare to others.</p>",
+      "_incorrect": {
+        "final": "<p><strong>Are you sure about that?</strong></p><p>It is highly unlikely that in any dilemma you will be able to eliminate bias from the result. Imagine if the car was making decisions based on who it has adversely impacted before and thus was consciously trying to introduce balance. There are ongoing conversations related to techniques to reduce bias in data, including oversampling (or generating additional data) to fill gaps or even to paint a different picture to that presented by the collected data. However is oversampled (or synthetic) data a representation of a world we want to see and still just as biased as the person who creates it?.&nbsp;</p><p>Bias is hard to deal with, understanding what biases there are is the first step. So let’s see what biases your choices resulted in and how these compare to others.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Some appropriate graphic",
+    "displayTitle": "",
+    "body": "",
+    "_id": "630f8d2b6b4097008b2afd82",
+    "_parentId": "630f8b9c6b4097008b2afd7f",
+    "_type": "component",
+    "_layout": "right",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_tutor": {
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/fa9990f766bc06c1a377841ae06f5dce1eafef26.jpg",
+      "small": "course/en/assets/fa9990f766bc06c1a377841ae06f5dce1eafef26.jpg",
+      "attribution": "<a href=\"https://www.adaptlearning.org/index.php/adapt-authoring-tool/\" target=\"_blank\">Adapt eLearning</a> <span class='assetLicence'>[CC-BY]</span>",
+      "_url": "",
+      "_target": null
+    }
+  },
+  {
+    "_component": "matching",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "The relationship between ethics and law",
+    "displayTitle": "The relationship between ethics and law",
+    "body": "<p>Can you identify which of the following relate to ethics, law or both?</p>",
+    "_id": "630f8efa6b4097008b2afd87",
+    "_parentId": "630f8ed86b4097008b2afd86",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_tutor": {
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "",
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldResetAllAnswers": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": false,
+    "_questionWeight": 1,
+    "_recordInteraction": true,
+    "placeholder": "Please select an option",
+    "_items": [
+      {
+        "text": "Guidelines for how people should behave",
+        "_options": [
+          {
+            "text": "Ethics",
+            "_isCorrect": true
+          },
+          {
+            "text": "Law",
+            "_isCorrect": false
+          },
+          {
+            "text": "Both",
+            "_isCorrect": false
+          }
+        ]
+      },
+      {
+        "text": "Codified and developed by society and professional bodies",
+        "_options": [
+          {
+            "text": "Ethics",
+            "_isCorrect": false
+          },
+          {
+            "text": "Law",
+            "_isCorrect": false
+          },
+          {
+            "text": "Both",
+            "_isCorrect": true
+          }
+        ]
+      },
+      {
+        "text": "Violations are punishable in court",
+        "_options": [
+          {
+            "text": "Ethics",
+            "_isCorrect": false
+          },
+          {
+            "text": "Law",
+            "_isCorrect": true
+          },
+          {
+            "text": "Both",
+            "_isCorrect": false
+          }
+        ]
+      },
+      {
+        "text": "Rules that govern society",
+        "_options": [
+          {
+            "text": "Ethics",
+            "_isCorrect": false
+          },
+          {
+            "text": "Law",
+            "_isCorrect": true
+          },
+          {
+            "text": "Both",
+            "_isCorrect": false
+          }
+        ]
+      }
+    ],
+    "_feedback": {
+      "title": "",
+      "correct": "<p><strong>That’s right!</strong></p><p>Ethics are guidelines and principles that help guide acceptable behaviour in society. However they are not consistently punishable until codified into law. Many ethical principles have made it into law, including data protection and in some countries, managed vaccination. At this point the principles become rules that are punishable. Unlike ethics, law levels the playing field. Everyone should abide by the law, but can choose to act ethically or not.</p>",
+      "_incorrect": {
+        "final": "<p><strong>Are you sure about that?</strong></p><p>Ethics are guidelines and principles that help guide acceptable behaviour in society. However they are not consistently punishable until codified into law. Many ethical principles have made it into law, including data protection and in some countries, managed vaccination. At this point the principles become rules that are punishable. Unlike ethics, law levels the playing field. Everyone should abide by the law, but can choose to act ethically or not.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Scenarios 7-10: Ethics and law",
+    "displayTitle": "Scenarios 7-10: Ethics and law",
+    "body": "<p>All of the following scenarios contain situations similar to those&nbsp;you have seen before.&nbsp;However, pedestrian crossing lights have been added. If the lights are green then the pedestrians have right of way and cars should stop. If the pedestrian lights are red, then cars have right of way.</p><p>The choices remain the same, swerve or go straight.</p>",
+    "_id": "630f8fb46b4097008b2afd8a",
+    "_parentId": "630f8fb46b4097008b2afd89",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_tutor": {
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Who should decide what the self-driving car does in each situation?",
+    "displayTitle": "",
+    "body": "<p>So who should decide what the self-driving car should do?</p><p>There are many options up for discussion here including:</p><ul><li>The car manufacturer</li><li>The owner of the car</li><li>The primary occupant of the car</li><li>Government</li><li>Society in some way</li></ul><p>But we also have to consider the cultural differences between different countries.&nbsp;</p><p>The graph here&nbsp;shows the differences in one category (age) between different countries when responding to different scenarios in the moral machine. From this it is clear to see that western countries favour the younger generation while Asian countries favour the older generation.&nbsp;</p>",
+    "_id": "6310910ed3ca6a008ad7755e",
+    "_parentId": "63109089d3ca6a008ad7755c",
+    "_type": "component",
+    "_layout": "left",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_tutor": {
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "MIT Moral Machine - Younger vs Older",
+    "displayTitle": "",
+    "body": "",
+    "_id": "63109113d3ca6a008ad7755f",
+    "_parentId": "63109089d3ca6a008ad7755c",
+    "_type": "component",
+    "_layout": "right",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_tutor": {
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/4bbe45cb9b535492ad4bc6e06f069d0424e5e11e.png",
+      "small": "course/en/assets/4bbe45cb9b535492ad4bc6e06f069d0424e5e11e.png",
+      "attribution": "<a href=\"https://theodi.org\" target=\"_blank\">Open Data Institute</a> <span class='assetLicence'>[CC-BY]</span>",
+      "_url": "",
+      "_target": null
+    }
+  },
+  {
+    "_component": "mcq",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Will self driving cars ever be 100% safe and reliable?",
+    "displayTitle": "",
+    "body": "<p>Machines are increasingly using data in an attempt to assist us. From calculating insurance quotes, to predictive policing to driving our cars, we are increasingly relying on machines.&nbsp;</p><p>Will machines (e.g. self driving cars) &nbsp;ever be 100% reliable and safe.</p>",
+    "_id": "63109381d3ca6a008ad77564",
+    "_parentId": "63109334d3ca6a008ad77563",
+    "_type": "component",
+    "_layout": "right",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_tutor": {
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "",
+    "_items": [
+      {
+        "text": "Yes",
+        "_shouldBeSelected": false,
+        "_isPartlyCorrect": false,
+        "feedback": "",
+        "_score": 0
+      },
+      {
+        "text": "No",
+        "_shouldBeSelected": true,
+        "_isPartlyCorrect": false,
+        "feedback": "",
+        "_score": 0
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": false,
+    "_recordInteraction": true,
+    "_hasItemScoring": false,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p><strong>That’s right!</strong></p><p dir=\"ltr\">Machines operate using rules. Machine learning is about giving the machines the ability to learn from their inputs dynamically, thus potentially becoming more efficient. One thing that machines are is consistent; they will do what they have learned or been programmed to do. One thing they are not is perfect, same as us. They will have accidents and crash.&nbsp;</p><p dir=\"ltr\">But can machines be taught to be ethical? What is ethical and to whom?&nbsp;&nbsp;</p><p dir=\"ltr\">Our dilemma is at what point are humans and machines both ready for automated cars to become widely accepted? This is what many of those involved in developing them are researching. Is it possible to prove that self-driving cars are safer than humans, even if they are not perfect? Even at this point we will need to keep re-reviewing the impacts of them continuously, just like we did for cars where the highway code is still evolving to deal with changes in modern society.</p>",
+      "_incorrect": {
+        "final": "<p><strong>Are you sure about that?</strong></p><p dir=\"ltr\">Machines operate using rules. Machine learning is about giving the machines the ability to learn from their inputs dynamically, thus potentially becoming more efficient. One thing that machines are is consistent; they will do what they have learned or been programmed to do. One thing they are not is perfect, same as us. They will have accidents and crash.&nbsp;</p><p dir=\"ltr\">But can machines be taught to be ethical? What is ethical and to whom?&nbsp;&nbsp;</p><p dir=\"ltr\">Our dilemma is at what point are humans and machines both ready for automated cars to become widely accepted? This is what many of those involved in developing them are researching. Is it possible to prove that self-driving cars are safer than humans, even if they are not perfect? Even at this point we will need to keep re-reviewing the impacts of them continuously, just like we did for cars where the highway code is still evolving to deal with changes in modern society.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Some appropriate picture",
+    "displayTitle": "",
+    "body": "",
+    "_id": "6310939cd3ca6a008ad77566",
+    "_parentId": "63109334d3ca6a008ad77563",
+    "_type": "component",
+    "_layout": "left",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_tutor": {
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/fa9990f766bc06c1a377841ae06f5dce1eafef26.jpg",
+      "small": "course/en/assets/fa9990f766bc06c1a377841ae06f5dce1eafef26.jpg",
+      "attribution": "<a href=\"https://www.adaptlearning.org/index.php/adapt-authoring-tool/\" target=\"_blank\">Adapt eLearning</a> <span class='assetLicence'>[CC-BY]</span>",
+      "_url": "",
+      "_target": null
+    }
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "What have we learned?",
+    "displayTitle": "What have we learned?",
+    "body": "<p>In this module we have looked at the importance of ethics and how making a decision that everyone agrees with could take significant time. Regardless of the situation, there are always likely to be positive and negative impacts that result from the use of data to inform decision making. However, data plays a critical role in helping us evaluate the impacts of our decisions, allowing us to continually learn and refine the way things are done.</p>",
+    "_id": "63109530d3ca6a008ad7756b",
+    "_parentId": "63109504d3ca6a008ad7756a",
+    "_type": "component",
+    "_layout": "left",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_tutor": {
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Summary clipboard",
+    "displayTitle": "",
+    "body": "",
+    "_id": "63109533d3ca6a008ad7756c",
+    "_parentId": "63109504d3ca6a008ad7756a",
+    "_type": "component",
+    "_layout": "right",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_tutor": {
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/d1d24b4afcea5906ce1684f8cb3231a3ec0446f6.png",
+      "small": "course/en/assets/d1d24b4afcea5906ce1684f8cb3231a3ec0446f6.png",
+      "attribution": "<a href=\"http://www.shutterstock.com/pic-189810137.html\" target=\"_blank\">Kritchanut</a> <span class='assetLicence'>[Shutterstock standard licence]</span>",
+      "_url": "",
+      "_target": null
+    }
+  },
+  {
+    "_component": "chartjs",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Why did others choose to intervene?",
+    "displayTitle": "Why did others choose to intervene?",
+    "body": "<p>The graph here shows the reasons that others chose to intervene. Your answers will be added to this on the next update.</p>",
+    "_id": "63174f2026548c0087a5bc3b",
+    "_parentId": "63174eb226548c0087a5bc37",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "instruction": "",
+    "_chartType": "bar",
+    "_height": 260,
+    "data": {
+      "labels": [
+        [
+          "The person in the",
+          "car took the risk",
+          "by choosing to be in",
+          "a self driving car."
+        ],
+        [
+          "This is what I",
+          "would do if I was",
+          "in control of the car."
+        ],
+        [
+          "If the only way",
+          "to stop the car is",
+          "by crashing into the",
+          "barrier then there is",
+          "potential for it to kill",
+          "more people further down",
+          "the road unless intervention",
+          "is taken."
+        ],
+        [
+          "I’m hoping that the",
+          "passenger sees what is",
+          "happening and can prepare",
+          "for the crash, jump",
+          "out the car or be",
+          "saved by an airbag."
+        ],
+        "None of the above"
+      ],
+      "datasets": [
+        {
+          "label": "Make an intervention",
+          "backgroundColor": "rgba(179,181,198,0.2)",
+          "borderColor": "rgba(179,181,198,1)",
+          "pointBackgroundColor": "rgba(179,181,198,1)",
+          "pointBorderColor": "#fff",
+          "pointHoverBackgroundColor": "#fff",
+          "pointHoverBorderColor": "rgba(179,181,198,1)",
+          "dataURL": "https://raw.githubusercontent.com/theodi/training-web/gh-pages/test-data-for-chartsjs.json",
+          "data": [
+            65,
+            59,
+            90,
+            81,
+            56
+          ]
+        }
+      ]
+    },
+    "_options": ""
+  },
+  {
+    "_component": "chartjs",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Why did others choose to not intervene?",
+    "displayTitle": "Why did others choose to not intervene?",
+    "body": "<p>The graph here shows the reasons that others chose not to intervene. Your answers will be added to this on the next update.</p>",
+    "_id": "63174f6326548c0087a5bc3e",
+    "_parentId": "63174f6326548c0087a5bc3d",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "instruction": "",
+    "_chartType": "bar",
+    "_height": 260,
+    "data": {
+      "labels": [
+        [
+          "The passenger should",
+          "be the primary concern",
+          "of the car."
+        ],
+        [
+          "This is what I",
+          "would do if I was",
+          "in control of the car."
+        ],
+        [
+          "The pedestrian is taking a",
+          "risk by choosing the road",
+          "without there being a",
+          "sensible distance between",
+          "them and the approaching car."
+        ],
+        [
+          "I'm hoping that the pedestrian",
+          "is able to get out of",
+          "the way of the car."
+        ],
+        "None of the above"
+      ],
+      "datasets": [
+        {
+          "label": "Avoid Intervention",
+          "backgroundColor": "rgba(179,181,198,0.2)",
+          "borderColor": "rgba(179,181,198,1)",
+          "pointBackgroundColor": "rgba(179,181,198,1)",
+          "pointBorderColor": "#fff",
+          "pointHoverBackgroundColor": "#fff",
+          "pointHoverBorderColor": "rgba(179,181,198,1)",
+          "dataURL": "https://raw.githubusercontent.com/theodi/training-web/gh-pages/test-data-for-chartsjs.json",
+          "data": [
+            65,
+            59,
+            90,
+            81,
+            56
+          ]
+        }
+      ]
+    },
+    "_options": ""
   }
 ]
