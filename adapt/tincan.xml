@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tincan xmlns="http://projecttincan.com/tincan.xsd">
+    <activities>
+        <activity id="https://learning.theodi.org/xapi/activities/mit-moral-machine-test" type="http://adlnet.gov/expapi/activities/course">
+            <name><![CDATA[[All Scenarios] Introduction to data ethics]]></name>
+            <description lang="en-US"><![CDATA[The aim of this module is to provide an overview of data ethics and help to create a set of questions to be considered in any data project. ]]></description>
+            <launch lang="en-US">index.html</launch>
+        </activity>
+    </activities>
+</tincan>
